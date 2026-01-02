@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">LM UI</string>
+    <string name="battery_level">BATTERY %1$d%%</string>
+    <string name="home_options_title">Home Options</string>
+    <string name="option_wallpaper">Wallpaper Settings</string>
+    <string name="option_system_settings">System Settings</string>
+    <string name="error_opening_wallpaper">Error opening wallpaper settings</string>
+    <string name="cannot_open_app">Cannot open app</string>
+    <string name="quote_1">Today is full of possibilities</string>
+    <string name="quote_2">Create your own sunshine</string>
+    <string name="quote_3">Make today amazing</string>
+    <string name="weather_location_format">Weather Location: %1$s</string>
+    <string name="weather_location_not_set">Weather Location: Not set</string>
+    
+    <!-- Settings Activity Strings -->
+    <string name="settings_title">Settings</string>
+    <string name="select_app_font">Select App Font</string>
+    <string name="font_updated">Font updated</string>
+    <string name="wallpaper_updated">Wallpaper updated</string>
+    <string name="failed_to_update_wallpaper">Failed to update wallpaper</string>
+    <string name="using_system_wallpaper">Using system wallpaper</string>
+    <string name="failed_to_clear_wallpaper">Failed to clear wallpaper</string>
+    <string name="no_email_app_found">No email app found</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_hidden_apps">No hidden apps</string>
+    
+    <!-- Font Names -->
+    <string name="font_inter_regular">Inter Regular</string>
+    <string name="font_inter_medium">Inter Medium</string>
+    <string name="font_inter_light">Inter Light</string>
+    <string name="font_outfit_light">Outfit Light</string>
+    <string name="font_outfit_semibold">Outfit Semibold</string>
+    <string name="font_playfair_display">Playfair Display</string>
+</resources>

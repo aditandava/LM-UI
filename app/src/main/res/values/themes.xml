@@ -1,0 +1,83 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.LMUILauncher" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryVariant">#000000</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">#1A1A1A</item>
+        <item name="colorSecondaryVariant">#1A1A1A</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+
+        <!-- Status bar and navigation bar -->
+        <item name="android:statusBarColor">#00000000</item>
+        <item name="android:navigationBarColor">#00000000</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- 
+          Set window background to solid black. 
+          This prevents the system wallpaper from "peeking" through edges or gaps.
+        -->
+        <item name="android:windowBackground">#000000</item>
+        <item name="android:colorBackground">#000000</item>
+        
+        <!-- 
+          We disable windowShowWallpaper to ensure the system doesn't render it behind us.
+          The launcher uses its own ImageView (wallpaperImageView) to display wallpapers.
+        -->
+        <item name="android:windowShowWallpaper">false</item>
+
+        <!-- Allow the window to draw into the cutout (notch) area -->
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="p">shortEdges</item>
+
+        <!-- Material ripple effect -->
+        <item name="android:colorControlHighlight">#33FFFFFF</item>
+    </style>
+
+    <!-- Opaque theme for Settings and Search (consistent with base now) -->
+    <style name="Theme.LMUILauncher.Opaque" parent="Theme.LMUILauncher">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <!-- Translucent BottomSheet Style -->
+    <style name="Theme.App.TranslucentBottomSheet" parent="Theme.MaterialComponents.DayNight.BottomSheetDialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowBlurBehindEnabled" tools:targetApi="s">true</item>
+        <item name="android:windowBlurBehindRadius" tools:targetApi="s">25dp</item>
+    </style>
+
+    <style name="Theme.Lmui" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+    </style>
+
+    <style name="AppBottomSheetDialogTheme" parent="ThemeOverlay.Material3.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/TranslucentBottomSheetStyle</item>
+    </style>
+
+    <style name="TranslucentBottomSheetStyle" parent="Widget.Material3.BottomSheet.Modal">
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="android:background">@drawable/bottom_sheet_bg</item>
+        <item name="shapeAppearance">@null</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/rounded_black_dialog_bg</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#999999</item>
+        <item name="colorAccent">#FF0000</item>
+    </style>
+
+    <style name="RoundedDialogShape" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerSize">28dp</item>
+    </style>
+</resources>

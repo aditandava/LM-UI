@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:clipChildren="false"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/wallpaperImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/home_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="24dp"
+        android:paddingBottom="12dp"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:clickable="true"
+        android:focusable="false">
+
+        <TextView
+            android:id="@+id/timeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13:52"
+            android:textColor="#FFFFFF"
+            android:textSize="72sp"
+            android:fontFamily="@font/inter_light"
+            android:letterSpacing="-0.02"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="24dp"/>
+
+        <TextView
+            android:id="@+id/dayText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wednesday"
+            android:textColor="#FF3E3E"
+            android:textSize="32sp"
+            android:fontFamily="@font/playfair_display_italic"
+            android:textStyle="italic"
+            android:letterSpacing="0.05"
+            app:layout_constraintTop_toBottomOf="@id/timeText"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="24dp"/>
+
+        <TextView
+            android:id="@+id/dateText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Loading date..."
+            android:textColor="#CCCCCC"
+            android:textSize="13sp"
+            android:fontFamily="@font/inter_regular"
+            android:lineSpacingExtra="4dp"
+            android:letterSpacing="0.01"
+            app:layout_constraintTop_toBottomOf="@id/dayText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"/>
+
+        <!-- Weather Section - Magazine Style -->
+        <LinearLayout
+            android:id="@+id/weatherLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@id/dateText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp">
+
+            <TextView
+                android:id="@+id/weatherTemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--°"
+                android:textColor="#FFFFFF"
+                android:textSize="48sp"
+                android:fontFamily="@font/inter_light"
+                android:includeFontPadding="false"/>
+
+            <TextView
+                android:id="@+id/weatherCondition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weather Loading..."
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:fontFamily="@font/outfit_semibold"
+                android:textAllCaps="true"
+                android:letterSpacing="0.1"
+                android:layout_marginTop="-4dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:id="@+id/weatherDetails"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="AQI -- • WIND -- km/h • HUM --%"
+                    android:textColor="#888888"
+                    android:textSize="10sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:letterSpacing="0.05"/>
+
+                <TextView
+                    android:id="@+id/weatherUV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UV LOW"
+                    android:textColor="#FF3E3E"
+                    android:textSize="10sp"
+                    android:fontFamily="sans-serif-black"
+                    android:letterSpacing="0.1"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/quoteText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Make today amazing"
+            android:textColor="#999999"
+            android:textSize="12sp"
+            android:fontFamily="@font/outfit_semibold"
+            android:fontStyle="italic"
+            android:letterSpacing="0.02"
+            app:layout_constraintTop_toBottomOf="@id/weatherLayout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"/>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#333333"
+            app:layout_constraintTop_toBottomOf="@id/quoteText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"/>
+
+        <ImageView
+            android:id="@+id/chargingIcon"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:src="@drawable/ic_charging"
+            android:visibility="gone"
+            android:layout_marginEnd="4dp"
+            app:layout_constraintBottom_toBottomOf="@id/batteryText"
+            app:layout_constraintStart_toStartOf="@id/divider"
+            app:layout_constraintTop_toTopOf="@id/batteryText"
+            tools:visibility="visible"/>
+
+        <TextView
+            android:id="@+id/batteryText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BATTERY --%"
+            android:textColor="#FFFFFF"
+            android:textSize="11sp"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.15"
+            app:layout_constraintTop_toBottomOf="@id/divider"
+            app:layout_constraintStart_toEndOf="@id/chargingIcon"
+            app:layout_goneMarginStart="0dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="4dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/favoritesRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/batteryText"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="-24dp"
+            android:layout_marginEnd="-24dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            android:requiresFadingEdge="horizontal"
+            android:fadingEdgeLength="100dp"
+            android:cacheColorHint="#00000000"
+            android:overScrollMode="never"
+            tools:listitem="@layout/item_favorite"/>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/searchBar"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            app:cardBackgroundColor="#1A1A1A"
+            app:cardCornerRadius="28dp"
+            app:cardElevation="0dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="#333333"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="12dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingStart="20dp"
+                android:paddingEnd="12dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_search"
+                    app:tint="#999999"/>
+
+                <TextView
+                    android:id="@+id/searchText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="12dp"
+                    android:text="Search apps..."
+                    android:textColor="#999999"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif"/>
+
+                <ImageView
+                    android:id="@+id/settingsIcon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:padding="8dp"
+                    android:src="@drawable/ic_settings_gear"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    app:tint="#FFFFFF"
+                    android:clickable="true"
+                    android:focusable="true"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomSheet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bottom_sheet_bg"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+        app:behavior_peekHeight="0dp"
+        app:behavior_hideable="true"
+        app:behavior_skipCollapsed="true"
+        android:paddingTop="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="0dp"
+        android:elevation="10dp"
+        android:fitsSystemWindows="false">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/bottomSheetTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="App Drawer"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:fontFamily="@font/outfit_semibold"
+                android:letterSpacing="-0.01"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="4dp"/>
+
+            <ImageView
+                android:id="@+id/drawerTypeToggle"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="8dp"
+                android:src="@drawable/ic_view_list"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:focusable="true" />
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/appsRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clipToPadding="false"
+            android:paddingBottom="20dp"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbars="vertical"
+            android:requiresFadingEdge="vertical"
+            android:fadingEdgeLength="80dp"
+            android:overScrollMode="never"/>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_background"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="8dp">
+
+        <ImageView
+            android:id="@+id/dialogAppIcon"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:id="@+id/dialogAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App Name"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:fontFamily="@font/inter_medium"
+            android:layout_marginStart="16dp"/>
+    </LinearLayout>
+
+    <!-- Add to Favorite -->
+    <LinearLayout
+        android:id="@+id/optionFavorite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="14dp"
+        android:background="@drawable/option_item_background"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:focusable="true">
+        <TextView
+            android:id="@+id/txtFavorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add to Favorites"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:fontFamily="@font/inter_regular"/>
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="4dp"/>
+
+    <!-- App Info -->
+    <LinearLayout
+        android:id="@+id/optionAppInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="14dp"
+        android:background="@drawable/option_item_background"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:focusable="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App Info"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:fontFamily="@font/inter_regular"/>
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="4dp"/>
+
+    <!-- Hide App -->
+    <LinearLayout
+        android:id="@+id/optionHide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="14dp"
+        android:background="@drawable/option_item_background"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:focusable="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hide App"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:fontFamily="@font/inter_regular"/>
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="4dp"/>
+
+    <!-- Uninstall -->
+    <LinearLayout
+        android:id="@+id/optionUninstall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="14dp"
+        android:background="@drawable/option_item_background"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:focusable="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uninstall"
+            android:textColor="#FF3E3E"
+            android:textSize="15sp"
+            android:fontFamily="@font/inter_medium"/>
+    </LinearLayout>
+
+</LinearLayout>

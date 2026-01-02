@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.LMUILauncher" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryVariant">#000000</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">#1A1A1A</item>
+        <item name="colorSecondaryVariant">#1A1A1A</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+
+        <!-- Status bar and navigation bar -->
+        <item name="android:statusBarColor">#00000000</item>
+        <item name="android:navigationBarColor">#00000000</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Background - Set to transparent to show system wallpaper -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:windowShowWallpaper">true</item>
+
+        <!-- Material ripple effect -->
+        <item name="android:colorControlHighlight">#33FFFFFF</item>
+    </style>
+</resources>
