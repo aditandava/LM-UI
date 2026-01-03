@@ -1,0 +1,1 @@
+A lightweight, minimal Android launcher focused on clean UI
