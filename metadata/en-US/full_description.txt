@@ -1,0 +1,10 @@
+LM UI is a minimalist, open-source Android launcher designed for users who value simplicity, speed, and privacy. By removing the distractions of modern interfaces, LM UI helps you reclaim your focus and use your phone as a tool rather than a distraction.
+
+Key Features:
+• Ultra-Minimalist Design: A clean, distraction-free home screen that prioritizes your most essential apps.
+• Weather Integration: Built-in weather updates powered by the privacy-friendly Open-Meteo API.
+• Fast & Lightweight: Designed for performance with zero bloatware or background services that drain your battery.
+• Privacy First: No user tracking, no data collection, and no internet permissions required for core functions (outside of optional weather updates).
+• Fully Open Source: Licensed under MIT, allowing for full transparency and community audits.
+
+Experience a mindful way to interact with your device. LM UI is the perfect choice for anyone looking for a "dumb phone" experience or a cleaner digital environment.
