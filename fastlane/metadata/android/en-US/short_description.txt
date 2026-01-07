@@ -1,0 +1,1 @@
+A minimalist, magazine-style launcher focused on productivity and simplicity.
