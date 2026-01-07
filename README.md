@@ -9,9 +9,9 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=20&duration=4000&pause=1500&color=8B9DA3&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=80&lines=Tranquil+%F0%9F%8C%BF+Minimalist+%F0%9F%8C%91+Nature-Inspired;Build+Serene+Interfaces+with+Grace" alt="Typing SVG" />
 </p>
 
-<img src="https://raw.githubusercontent.com/aditandava/lmui/main/assets/hero-forest.jpg" width="100%" alt="Misty Forest" style="border-radius: 12px; opacity: 0.6;">
-
 <p align="center"><em>"In the stillness of design, beauty emerges"</em></p>
+
+<br />
 
 [![GitHub Stars](https://img.shields.io/github/stars/aditandava/lmui?style=for-the-badge&color=556B2F&logo=github&logoColor=white)](https://github.com/aditandava/lmui/stargazers)
 [![NPM Version](https://img.shields.io/npm/v/lmui?style=for-the-badge&color=5F7161&logo=npm&logoColor=white)](https://www.npmjs.com/package/lmui)
