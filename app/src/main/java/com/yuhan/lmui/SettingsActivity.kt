@@ -1,5 +1,6 @@
 package com.yuhan.lmui
 
+import android.app.AlertDialog
 import android.content.Context
 import android.content.Intent
 import android.graphics.Bitmap
@@ -12,7 +13,6 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowCompat
@@ -135,11 +135,8 @@ class SettingsActivity : AppCompatActivity() {
 
         binding.connectButton.setOnClickListener {
             try {
-                val intent = Intent(Intent.ACTION_SENDTO).apply {
-                    data = Uri.parse("mailto:aditandava@gmail.com")
-                    putExtra(Intent.EXTRA_SUBJECT, getString(R.string.app_name) + " Feedback")
-                }
-                startActivity(Intent.createChooser(intent, "Send Email"))
+                val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/sponsors/aditandava"))
+                startActivity(intent)
             } catch (e: Exception) {
                 // Ignore
             }

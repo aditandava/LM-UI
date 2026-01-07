@@ -41,17 +41,6 @@
             android:textColor="#FFFFFF"
             android:textSize="32sp"
             android:fontFamily="@font/outfit_semibold"/>
-
-        <ImageView
-            android:id="@+id/connectButton"
-            android:layout_width="32dp"
-            android:layout_height="32dp"
-            android:layout_marginStart="16dp"
-            android:src="@android:drawable/ic_menu_send"
-            android:padding="4dp"
-            app:tint="#4CAF50"
-            android:background="?attr/selectableItemBackgroundBorderless"
-            android:contentDescription="Connect"/>
     </LinearLayout>
 
     <ScrollView
@@ -70,22 +59,59 @@
             android:paddingBottom="40dp">
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:id="@+id/topBar"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:paddingHorizontal="16dp"
-                android:paddingVertical="8dp"
-                android:background="@drawable/location_box_bg"
-                android:layout_marginBottom="24dp">
+                android:orientation="horizontal"
+                android:layout_marginBottom="24dp"
+                android:gravity="center_vertical">
 
-                <TextView
-                    android:id="@+id/locationText"
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Loading..."
-                    android:textColor="#000000"
-                    android:textSize="16sp"
-                    android:fontFamily="@font/outfit_semibold"/>
+                    android:orientation="vertical"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="8dp"
+                    android:background="@drawable/location_box_bg">
+
+                    <TextView
+                        android:id="@+id/locationText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Loading..."
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/outfit_semibold"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <LinearLayout
+                    android:id="@+id/connectButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="12dp"
+                    android:paddingVertical="8dp"
+                    android:background="@drawable/location_box_bg"
+                    android:gravity="center_vertical">
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:src="@drawable/ic_github"
+                        app:tint="#000000"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sponsor"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:layout_marginStart="8dp"
+                        android:fontFamily="@font/outfit_semibold"/>
+                </LinearLayout>
             </LinearLayout>
 
             <!-- Appearance Section -->
