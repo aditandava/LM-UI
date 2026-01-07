@@ -1,0 +1,16 @@
+<p><b>Transform your device into a digital magazine.</b></p>
+
+<p>LM UI isn't just a launcher; it is a philosophy. We believe your home screen should be a sanctuary, not a source of stress. Experience a distraction-free interface that blends your apps, news, and daily info into a stunning, editorial-grade layout.</p>
+
+<p><b>✨ Key Features</b></p>
+<ul>
+<li><b>Editorial Aesthetics:</b> Abandon the grid. Your digital life is presented in a clean, readable timeline that looks and feels like a premium magazine.</li>
+<li><b>Deep Focus Mode:</b> Reclaim your attention. Our deliberate design hides the noise, allowing you to access what you need without getting lost in the clutter.</li>
+<li><b>True Black Design:</b> A sophisticated dark theme handcrafted for AMOLED screens—gentle on your eyes and efficient on your battery.</li>
+<li><b>Uncompromised Privacy:</b> Your data is yours. LM UI is 100% open source with absolutely no tracking, no data collection, and no ads.</li>
+</ul>
+
+<p><b>🚀 Why LM UI?</b><br>
+In a world fighting for your attention, LM UI gives you peace of mind. Whether you are a productivity enthusiast or a design lover, this is the upgrade your phone deserves.</p>
+
+<p><i>Redefine your home screen today.</i></p>
