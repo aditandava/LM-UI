@@ -1,45 +1,63 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=300&section=header&text=LMUI&fontSize=100&fontAlignY=38&desc=Lightweight%20Material%20UI%20Framework&descAlignY=60&descAlign=50&animation=twinkling" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,8,12,17&height=300&section=header&text=LMUI&fontSize=100&fontAlignY=38&desc=Lightweight%20Material%20UI%20Framework&descAlignY=60&descAlign=50&animation=twinkling" width="100%">
 
-# 💎 LMUI - Lightweight Material UI 💎
-### 🚀 Next-Generation UI Framework for Modern Web Development 🚀
+# 🌙 LMUI - Lightweight Material UI 🌙
+### ✨ Calm, Elegant UI Framework for Serene Web Experiences ✨
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=80&lines=Fast+%E2%9A%A1+Beautiful+%F0%9F%8E%A8+Developer-Friendly+%F0%9F%92%BB;Build+Stunning+UIs+in+Minutes!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=20&duration=4000&pause=1500&color=8B9DA3&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=80&lines=Tranquil+%F0%9F%8C%BF+Minimalist+%F0%9F%8C%91+Nature-Inspired;Build+Serene+Interfaces+with+Grace" alt="Typing SVG" />
 </p>
 
-[![GitHub Stars](https://img.shields.io/github/stars/aditandava/lmui?style=for-the-badge&color=FFD700&logo=github&logoColor=white)](https://github.com/aditandava/lmui/stargazers)
-[![NPM Version](https://img.shields.io/npm/v/lmui?style=for-the-badge&color=CB3837&logo=npm&logoColor=white)](https://www.npmjs.com/package/lmui)
-[![Downloads](https://img.shields.io/npm/dm/lmui?style=for-the-badge&color=00D9FF&logo=npm&logoColor=white)](https://www.npmjs.com/package/lmui)
-[![License](https://img.shields.io/badge/License-MIT-34D058?style=for-the-badge&logo=open-source-initiative&logoColor=white)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-00D9FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aditandava/lmui/pulls)
+<img src="https://raw.githubusercontent.com/aditandava/lmui/main/assets/hero-forest.jpg" width="100%" alt="Misty Forest" style="border-radius: 12px; opacity: 0.6;">
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<p align="center"><em>"In the stillness of design, beauty emerges"</em></p>
+
+[![GitHub Stars](https://img.shields.io/github/stars/aditandava/lmui?style=for-the-badge&color=556B2F&logo=github&logoColor=white)](https://github.com/aditandava/lmui/stargazers)
+[![NPM Version](https://img.shields.io/npm/v/lmui?style=for-the-badge&color=5F7161&logo=npm&logoColor=white)](https://www.npmjs.com/package/lmui)
+[![Downloads](https://img.shields.io/npm/dm/lmui?style=for-the-badge&color=6D8B74&logo=npm&logoColor=white)](https://www.npmjs.com/package/lmui)
+[![License](https://img.shields.io/badge/License-MIT-8B9DA3?style=for-the-badge&logo=open-source-initiative&logoColor=white)](LICENSE)
+[![Made by](https://img.shields.io/badge/Made_by-aditandava-A8B5A8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aditandava)
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" style="opacity: 0.3;">
 
 <p align="center">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
-  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion" />
+  <img src="https://img.shields.io/badge/React-2D3436?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-2C3E50?style=for-the-badge&logo=typescript&logoColor=3498DB" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Vite-34495E?style=for-the-badge&logo=vite&logoColor=9B59B6" alt="Vite" />
+  <img src="https://img.shields.io/badge/Tailwind-1C2833?style=for-the-badge&logo=tailwind-css&logoColor=17A2B8" alt="Tailwind" />
+  <img src="https://img.shields.io/badge/Framer-212F3D?style=for-the-badge&logo=framer&logoColor=E74C3C" alt="Framer Motion" />
 </p>
 
-**LMUI** is a revolutionary UI component library crafted for developers who demand speed, beauty, and flexibility. Build stunning, high-performance web applications with ease.
+**LMUI** is a nature-inspired UI component library that brings tranquility and elegance to web development. Like morning dew on forest leaves, LMUI creates interfaces that breathe calmness into your applications.
 
 <p align="center">
-  <a href="https://github.com/aditandava/lmui"><strong>📚 Documentation »</strong></a>
+  <a href="https://github.com/aditandava/lmui/issues?q=is%3Aissue+label%3Abug"><strong>🐛 Report Bug »</strong></a>
+  <br />
+  <a href="https://github.com/aditandava/lmui/issues?q=is%3Aissue+label%3Aenhancement"><strong>💡 Request Feature »</strong></a>
   <br />
   <br />
-  <a href="https://github.com/aditandava/lmui">🎯 View Demo</a>
+  <a href="#-quick-start">Get Started</a>
   ·
-  <a href="https://github.com/aditandava/lmui/issues">🐛 Report Bug</a>
+  <a href="#-component-library">Components</a>
   ·
-  <a href="https://github.com/aditandava/lmui/issues">💡 Request Feature</a>
+  <a href="#-core-architecture">Architecture</a>
+  ·
+  <a href="https://github.com/aditandava">@aditandava</a>
 </p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" style="opacity: 0.3;">
 
+</div>
+
+## 🌿 Philosophy
+
+> *"Design should be like nature - effortless, balanced, and deeply calming."*
+
+LMUI embraces the quietness of misty forests and the gentleness of moonlit nights. Every component is crafted to provide a serene user experience, reducing cognitive load while maintaining visual beauty.
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 </div>
 
 ## ✨ Why Choose LMUI?
@@ -47,55 +65,55 @@
 <table>
   <tr>
     <td align="center" width="33%">
-      <h3>⚡ Blazing Fast</h3>
-      <p>Minimal bundle size (12KB gzipped), tree-shakeable modules, and zero runtime overhead. Optimized for Core Web Vitals.</p>
+      <h3>🌑 Serene Aesthetics</h3>
+      <p>Inspired by nature's tranquility. Muted tones, gentle shadows, and organic animations create interfaces that soothe rather than overwhelm.</p>
     </td>
     <td align="center" width="33%">
-      <h3>🎨 Beautiful Design</h3>
-      <p>Premium glassmorphism, neumorphism, and fluid animations out of the box. GPU-accelerated transitions for smooth UX.</p>
+      <h3>🍃 Lightweight Core</h3>
+      <p>Minimal bundle size (12KB gzipped) ensures fast load times. Like a gentle breeze - barely noticeable but refreshingly present.</p>
     </td>
     <td align="center" width="33%">
-      <h3>📱 Fully Responsive</h3>
-      <p>Mobile-first approach with adaptive layouts. Looks stunning on every screen size. Touch-optimized interactions.</p>
+      <h3>🌲 Nature-Inspired Design</h3>
+      <p>Frosted glass effects mimicking morning dew, shadows soft as twilight, and transitions smooth as flowing water.</p>
     </td>
   </tr>
   <tr>
     <td align="center" width="33%">
-      <h3>🛠️ Customizable</h3>
-      <p>Powerful theming system with CSS variables. Override styles and create custom variants with an intuitive API.</p>
+      <h3>🌙 Dark Mode First</h3>
+      <p>Designed for low-light environments. Easy on the eyes, perfect for late-night coding sessions and mindful browsing.</p>
     </td>
     <td align="center" width="33%">
-      <h3>♿ Accessible</h3>
-      <p>WCAG 2.1 Level AA compliant. Keyboard navigation, screen reader support, and ARIA attributes built-in.</p>
+      <h3>♿ Accessible & Calm</h3>
+      <p>WCAG 2.1 compliant with reduced motion support. Respects user preferences and promotes digital wellbeing.</p>
     </td>
     <td align="center" width="33%">
-      <h3>👨‍💻 Great DX</h3>
-      <p>Full TypeScript support, IntelliSense, comprehensive documentation, and extensive examples.</p>
+      <h3>🎋 Zen Developer Experience</h3>
+      <p>Clear documentation, intuitive API, and TypeScript support. Build peacefully without friction.</p>
     </td>
   </tr>
 </table>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 </div>
 
-## 📊 Performance Comparison
+## 📊 Performance Metrics
 
 <div align="center">
 
 | Metric | LMUI | Material-UI | Ant Design | Chakra UI |
 |--------|------|-------------|------------|-----------|
-| **Bundle Size** | 🟢 12KB | 🟡 87KB | 🔴 234KB | 🟡 68KB |
-| **First Paint** | 🟢 0.8s | 🟡 1.5s | 🔴 2.1s | 🟡 1.3s |
-| **TTI** | 🟢 1.2s | 🟡 2.4s | 🔴 3.8s | 🟡 2.0s |
-| **Lighthouse** | 🟢 98/100 | 🟡 87/100 | 🔴 76/100 | 🟡 89/100 |
+| **Bundle Size** | 🌿 12KB | 🟡 87KB | 🔴 234KB | 🟡 68KB |
+| **First Paint** | 🌿 0.8s | 🟡 1.5s | 🔴 2.1s | 🟡 1.3s |
+| **TTI** | 🌿 1.2s | 🟡 2.4s | 🔴 3.8s | 🟡 2.0s |
+| **Lighthouse** | 🌿 98/100 | 🟡 87/100 | 🔴 76/100 | 🟡 89/100 |
 | **Components** | 50+ | 60+ | 70+ | 45+ |
 | **Tree Shaking** | ✅ | ✅ | ⚠️ Limited | ✅ |
 
 </div>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 </div>
 
 ## 🚀 Quick Start
@@ -119,26 +137,44 @@ pnpm add lmui
 import { Button, Card, initLMUI } from 'lmui';
 import 'lmui/styles.css';
 
-// Initialize with custom theme
+// Initialize with serene theme
 initLMUI({
+  mode: 'dark', // Calm by default
   colors: {
-    primary: { 500: '#your-color' }
+    primary: { 500: '#6D8B74' } // Forest green
   }
 });
 
 function App() {
   return (
-    <Card variant="glass">
-      <Button variant="gradient" size="lg">
-        Get Started
+    <Card variant="frosted">
+      <h2>Welcome to Tranquility</h2>
+      <Button variant="mist" size="lg">
+        Begin Journey
       </Button>
     </Card>
   );
 }
 ```
 
+### Unique Variants
+
+```jsx
+// Frosted glass like morning dew
+<Card variant="frosted">Misty morning</Card>
+
+// Gentle shadows like twilight
+<Button variant="mist">Serene action</Button>
+
+// Moonlit glow effect
+<Badge variant="moonlight">Calm notification</Badge>
+
+// Forest depth
+<Modal variant="depth">Deep focus</Modal>
+```
+
 <div align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 </div>
 
 ## 🎯 Component Library
@@ -152,9 +188,9 @@ function App() {
       <h4>📐 Layout</h4>
       <ul>
         <li>Container</li>
-        <li>Grid System</li>
-        <li>Flex Box</li>
-        <li>Stack (V/H)</li>
+        <li>Grid</li>
+        <li>Flex</li>
+        <li>Stack</li>
         <li>Divider</li>
         <li>Spacer</li>
       </ul>
@@ -162,43 +198,43 @@ function App() {
     <td width="25%">
       <h4>🎛️ Forms</h4>
       <ul>
-        <li>Button (10+ variants)</li>
-        <li>Input Fields</li>
+        <li>Button (Mist, Frosted, Depth)</li>
+        <li>Input (Calm, Focused)</li>
         <li>Textarea</li>
-        <li>Select/Dropdown</li>
-        <li>Checkbox</li>
-        <li>Radio Buttons</li>
-        <li>Switch</li>
-        <li>Slider</li>
-        <li>Date/Time Picker</li>
+        <li>Select</li>
+        <li>Checkbox (Gentle)</li>
+        <li>Radio (Serene)</li>
+        <li>Switch (Moonlit)</li>
+        <li>Slider (Flow)</li>
+        <li>DatePicker</li>
       </ul>
     </td>
     <td width="25%">
-      <h4>📋 Data Display</h4>
+      <h4>📋 Display</h4>
       <ul>
-        <li>Card</li>
-        <li>Avatar</li>
-        <li>Badge</li>
-        <li>Chip</li>
-        <li>Table</li>
-        <li>List</li>
-        <li>Accordion</li>
-        <li>Tabs</li>
-        <li>Tooltip</li>
-        <li>Progress</li>
+        <li>Card (Frosted, Depth)</li>
+        <li>Avatar (Soft)</li>
+        <li>Badge (Moonlight)</li>
+        <li>Chip (Mist)</li>
+        <li>Table (Minimal)</li>
+        <li>List (Calm)</li>
+        <li>Accordion (Gentle)</li>
+        <li>Tabs (Flow)</li>
+        <li>Tooltip (Whisper)</li>
+        <li>Progress (Zen)</li>
       </ul>
     </td>
     <td width="25%">
       <h4>🔔 Feedback</h4>
       <ul>
-        <li>Alert</li>
-        <li>Toast</li>
-        <li>Modal</li>
-        <li>Drawer</li>
-        <li>Loading</li>
-        <li>Skeleton</li>
-        <li>Popover</li>
-        <li>Notification</li>
+        <li>Alert (Gentle)</li>
+        <li>Toast (Whisper)</li>
+        <li>Modal (Depth)</li>
+        <li>Drawer (Slide)</li>
+        <li>Loading (Flow)</li>
+        <li>Skeleton (Shimmer)</li>
+        <li>Popover (Float)</li>
+        <li>Notification (Soft)</li>
       </ul>
     </td>
   </tr>
@@ -206,45 +242,45 @@ function App() {
     <td width="25%">
       <h4>🧭 Navigation</h4>
       <ul>
-        <li>Navbar</li>
-        <li>Sidebar</li>
-        <li>Breadcrumb</li>
-        <li>Pagination</li>
-        <li>Menu</li>
-        <li>Link</li>
+        <li>Navbar (Frosted)</li>
+        <li>Sidebar (Depth)</li>
+        <li>Breadcrumb (Trail)</li>
+        <li>Pagination (Minimal)</li>
+        <li>Menu (Flow)</li>
+        <li>Link (Calm)</li>
       </ul>
     </td>
     <td width="25%">
       <h4>🎭 Advanced</h4>
       <ul>
-        <li>Carousel</li>
-        <li>Timeline</li>
-        <li>Stepper</li>
-        <li>Rating</li>
-        <li>TreeView</li>
-        <li>Transfer List</li>
+        <li>Carousel (Gentle)</li>
+        <li>Timeline (Flow)</li>
+        <li>Stepper (Path)</li>
+        <li>Rating (Stars)</li>
+        <li>TreeView (Branch)</li>
+        <li>Transfer (Move)</li>
       </ul>
     </td>
     <td width="25%">
-      <h4>📈 Charts</h4>
+      <h4>📈 Visualization</h4>
       <ul>
-        <li>Line Chart</li>
-        <li>Bar Chart</li>
-        <li>Pie Chart</li>
-        <li>Area Chart</li>
-        <li>Gauge</li>
-        <li>Sparkline</li>
+        <li>Line Chart (Smooth)</li>
+        <li>Bar Chart (Calm)</li>
+        <li>Pie Chart (Serene)</li>
+        <li>Area Chart (Flow)</li>
+        <li>Gauge (Zen)</li>
+        <li>Sparkline (Minimal)</li>
       </ul>
     </td>
     <td width="25%">
       <h4>✨ Effects</h4>
       <ul>
-        <li>Ripple</li>
-        <li>Parallax</li>
-        <li>Gradient Text</li>
-        <li>Glassmorphism</li>
-        <li>Neumorphism</li>
-        <li>Particles</li>
+        <li>Frost (Dew)</li>
+        <li>Parallax (Float)</li>
+        <li>Glow (Moonlight)</li>
+        <li>Shadow (Depth)</li>
+        <li>Shimmer (Ripple)</li>
+        <li>Fade (Mist)</li>
       </ul>
     </td>
   </tr>
@@ -253,7 +289,7 @@ function App() {
 </details>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 </div>
 
 ## 🏗️ Core Architecture
@@ -265,133 +301,120 @@ function App() {
 /**
  * ═══════════════════════════════════════════════════════════════════
  *                    LMUI CORE ENGINE v2.0
- *          Premium Graphics & Performance Optimization
+ *              Serene UI Components & Calm Interactions
  * ═══════════════════════════════════════════════════════════════════
  */
 
 // ────────────────────────────────────────────────────────────────────
-// 1. THEME CONFIGURATION
+// 1. SERENE THEME CONFIGURATION
 // ────────────────────────────────────────────────────────────────────
 
-const defaultTheme = {
+const calmTheme = {
   colors: {
-    primary: { 50: '#E3F2FD', 500: '#2196F3', 900: '#0D47A1' },
-    secondary: { 50: '#FCE4EC', 500: '#E91E63', 900: '#880E4F' },
-    success: { 50: '#E8F5E9', 500: '#4CAF50', 900: '#1B5E20' },
-    warning: { 50: '#FFF3E0', 500: '#FF9800', 900: '#E65100' },
-    error: { 50: '#FFEBEE', 500: '#F44336', 900: '#B71C1C' }
+    forest: { 50: '#F0F4F1', 500: '#6D8B74', 900: '#3D5A40' },
+    mist: { 50: '#F5F7F8', 500: '#8B9DA3', 900: '#4A5459' },
+    twilight: { 50: '#F2F4E8', 500: '#556B2F', 900: '#2C3719' },
+    moonlight: { 50: '#F8F9F8', 500: '#A8B5A8', 900: '#5C6A5C' }
   },
   spacing: { xs: '4px', sm: '8px', md: '16px', lg: '24px', xl: '32px' },
-  borderRadius: { sm: '4px', md: '8px', lg: '12px', xl: '16px', full: '9999px' },
-  shadows: {
-    sm: '0 1px 2px rgba(0,0,0,0.05)',
-    md: '0 4px 6px rgba(0,0,0,0.1)',
-    lg: '0 10px 15px rgba(0,0,0,0.1)',
-    glass: '0 8px 32px rgba(31,38,135,0.37)'
+  radius: { sm: '6px', md: '10px', lg: '16px', full: '9999px' },
+  effects: {
+    frost: 'blur(10px) saturate(1.8) brightness(1.1)',
+    mist: 'blur(8px) saturate(1.2)',
+    glow: '0 0 20px rgba(141, 157, 163, 0.3)',
+    depth: '0 10px 40px rgba(0, 0, 0, 0.4), 0 2px 8px rgba(0, 0, 0, 0.2)'
   }
 };
 
 // ────────────────────────────────────────────────────────────────────
-// 2. INITIALIZATION
+// 2. CALM INITIALIZATION
 // ────────────────────────────────────────────────────────────────────
 
 export const initLMUI = (customConfig = {}) => {
-  console.log('🎨 LMUI: Initializing...');
-  const config = deepMerge(defaultTheme, customConfig);
+  console.log('🌙 LMUI: Embracing tranquility...');
+  const config = deepMerge(calmTheme, customConfig);
   injectCSSVariables(config);
-  return { theme: config, version: '2.0.0' };
+  return { theme: config, version: '2.0.0', mood: 'serene' };
 };
 
 // ────────────────────────────────────────────────────────────────────
-// 3. ANIMATION SYSTEM (GPU-ACCELERATED)
+// 3. GENTLE ANIMATION SYSTEM
 // ────────────────────────────────────────────────────────────────────
 
-export const animationPresets = {
+export const serenityAnimations = {
   fadeIn: {
     keyframes: [
-      { opacity: 0, transform: 'translateY(10px)' },
+      { opacity: 0, transform: 'translateY(8px)' },
       { opacity: 1, transform: 'translateY(0)' }
     ],
-    options: { duration: 300, easing: 'cubic-bezier(0.4,0,0.2,1)' }
+    options: { duration: 500, easing: 'cubic-bezier(0.16, 1, 0.3, 1)' }
   },
-  slideIn: {
+  mist: {
     keyframes: [
-      { transform: 'translateX(-100%)' },
-      { transform: 'translateX(0)' }
+      { opacity: 0, filter: 'blur(10px)' },
+      { opacity: 1, filter: 'blur(0)' }
     ],
-    options: { duration: 400, easing: 'cubic-bezier(0.4,0,0.2,1)' }
+    options: { duration: 800, easing: 'ease-out' }
   },
-  scaleIn: {
+  float: {
     keyframes: [
-      { transform: 'scale(0.9)', opacity: 0 },
-      { transform: 'scale(1)', opacity: 1 }
+      { transform: 'translateY(0px)' },
+      { transform: 'translateY(-6px)' },
+      { transform: 'translateY(0px)' }
     ],
-    options: { duration: 250, easing: 'cubic-bezier(0.34,1.56,0.64,1)' }
+    options: { duration: 3000, easing: 'ease-in-out', iterations: Infinity }
   }
 };
 
-export const animateUI = (element, effect = 'fadeIn', callback) => {
-  if (!element || !animationPresets[effect]) return;
-  const { keyframes, options } = animationPresets[effect];
+export const animateCalm = (element, effect = 'fadeIn', callback) => {
+  if (!element || !serenityAnimations[effect]) return;
+  const { keyframes, options } = serenityAnimations[effect];
   const animation = element.animate(keyframes, options);
   if (callback) animation.onfinish = callback;
   return animation;
 };
 
 // ────────────────────────────────────────────────────────────────────
-// 4. VISUAL EFFECTS
+// 4. NATURE-INSPIRED EFFECTS
 // ────────────────────────────────────────────────────────────────────
 
-export const applyGlassmorphism = (element, options = {}) => {
-  const { blur = 10, opacity = 0.7, saturation = 1.2 } = options;
+export const applyFrost = (element, intensity = 'medium') => {
+  const levels = {
+    light: { blur: 6, opacity: 0.6, saturation: 1.1 },
+    medium: { blur: 10, opacity: 0.7, saturation: 1.3 },
+    heavy: { blur: 16, opacity: 0.8, saturation: 1.5 }
+  };
+  
+  const { blur, opacity, saturation } = levels[intensity];
+  
   Object.assign(element.style, {
-    background: `rgba(255,255,255,${opacity})`,
+    background: `rgba(255, 255, 255, ${opacity})`,
     backdropFilter: `blur(${blur}px) saturate(${saturation})`,
     WebkitBackdropFilter: `blur(${blur}px) saturate(${saturation})`,
-    boxShadow: '0 8px 32px rgba(31,38,135,0.37)'
+    border: '1px solid rgba(255, 255, 255, 0.2)',
+    boxShadow: '0 8px 32px rgba(31, 38, 135, 0.15)'
   });
 };
 
-export const applyNeumorphism = (element, mode = 'light') => {
-  const styles = mode === 'light' 
-    ? {
-        background: '#e0e0e0',
-        boxShadow: '20px 20px 60px #bebebe, -20px -20px 60px #ffffff'
-      }
-    : {
-        background: '#2d2d2d',
-        boxShadow: '20px 20px 60px #1a1a1a, -20px -20px 60px #404040'
-      };
-  Object.assign(element.style, styles);
+export const applyDepth = (element, level = 'medium') => {
+  const shadows = {
+    subtle: '0 2px 8px rgba(0, 0, 0, 0.1)',
+    medium: '0 10px 30px rgba(0, 0, 0, 0.15), 0 2px 8px rgba(0, 0, 0, 0.1)',
+    deep: '0 20px 60px rgba(0, 0, 0, 0.3), 0 4px 12px rgba(0, 0, 0, 0.2)'
+  };
+  
+  element.style.boxShadow = shadows[level];
 };
 
-export const addRippleEffect = (element, event) => {
-  const ripple = document.createElement('span');
-  const rect = element.getBoundingClientRect();
-  const size = Math.max(rect.width, rect.height);
-  const x = event.clientX - rect.left - size / 2;
-  const y = event.clientY - rect.top - size / 2;
-
-  Object.assign(ripple.style, {
-    width: `${size}px`,
-    height: `${size}px`,
-    left: `${x}px`,
-    top: `${y}px`,
-    position: 'absolute',
-    borderRadius: '50%',
-    background: 'rgba(255,255,255,0.6)',
-    transform: 'scale(0)',
-    animation: 'ripple 600ms ease-out'
+export const applyMoonlight = (element, color = '#A8B5A8') => {
+  Object.assign(element.style, {
+    boxShadow: `0 0 20px ${color}40, 0 0 40px ${color}20`,
+    border: `1px solid ${color}30`
   });
-
-  element.style.position = 'relative';
-  element.style.overflow = 'hidden';
-  element.appendChild(ripple);
-  setTimeout(() => ripple.remove(), 600);
 };
 
 // ────────────────────────────────────────────────────────────────────
-// 5. RESPONSIVE UTILITIES
+// 5. RESPONSIVE CALM
 // ────────────────────────────────────────────────────────────────────
 
 export const breakpoints = {
@@ -409,7 +432,7 @@ export const useBreakpoint = () => {
 };
 
 // ────────────────────────────────────────────────────────────────────
-// 6. HELPER UTILITIES
+// 6. ZEN UTILITIES
 // ────────────────────────────────────────────────────────────────────
 
 const deepMerge = (target, source) => {
@@ -440,11 +463,12 @@ const injectCSSVariables = (theme) => {
       });
     }
   });
+  console.log('🍃 Serenity infused into CSS variables');
 };
 
 /**
  * ═══════════════════════════════════════════════════════════════════
- *                      END OF CORE ENGINE
+ *           "In stillness, the UI finds its true purpose"
  * ═══════════════════════════════════════════════════════════════════
  */
 ```
@@ -455,45 +479,84 @@ const injectCSSVariables = (theme) => {
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 </div>
 
-## 🎨 Theming Examples
+## 🎨 Theming System
+
+### Calm Color Palette
 
 ```jsx
-// Custom theme configuration
+// Nature-inspired default theme
 initLMUI({
   colors: {
-    primary: { 500: '#6366F1' },
-    secondary: { 500: '#EC4899' }
+    forest: { 500: '#6D8B74', 600: '#5F7161' },
+    mist: { 500: '#8B9DA3', 600: '#7A8B92' },
+    twilight: { 500: '#556B2F', 600: '#4A5D29' },
+    moonlight: { 500: '#A8B5A8', 600: '#96A396' }
   },
-  spacing: { md: '20px' },
-  borderRadius: { lg: '16px' }
+  effects: {
+    frost: 'blur(10px) saturate(1.8)',
+    glow: '0 0 20px rgba(141, 157, 163, 0.3)',
+    depth: '0 10px 40px rgba(0, 0, 0, 0.4)'
+  }
 });
-
-// Use theme values
-<Button color="primary" size="lg" variant="glass">
-  Themed Button
-</Button>
 ```
 
-## 🤝 Contributing
+### Custom Serene Themes
 
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+```jsx
+// Evening forest theme
+<ThemeProvider theme="evening-forest">
+  <App />
+</ThemeProvider>
 
-```bash
-# Fork and clone the repo
-git clone https://github.com/your-username/lmui.git
-
-# Install dependencies
-npm install
-
-# Start development
-npm run dev
-
-# Run tests
-npm test
+// Misty morning theme
+<ThemeProvider theme="misty-morning">
+  <App />
+</ThemeProvider>
 ```
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
+</div>
+
+## 🤝 Contributing
+
+We welcome contributions from the community! LMUI thrives on collaborative serenity.
+
+### How to Contribute
+
+```bash
+# Fork the repository
+# Clone your fork
+git clone https://github.com/YOUR_USERNAME/lmui.git
+
+# Create a feature branch
+git checkout -b feature/calm-enhancement
+
+# Make your changes with mindful commits
+git commit -m "feat: add moonlight effect to cards"
+
+# Push to your fork
+git push origin feature/calm-enhancement
+
+# Open a Pull Request
+```
+
+### Guidelines
+
+- **Keep it calm**: Follow the serene design philosophy
+- **Test thoroughly**: Ensure all components maintain tranquility
+- **Document clearly**: Help others find peace in your code
+- **Be respectful**: Foster a welcoming, mindful community
+
+### Report Issues
+
+Found a bug? Have a feature request?
+
+- 🐛 **Report Bug**: [Open an issue](https://github.com/aditandava/lmui/issues/new?labels=bug)
+- 💡 **Request Feature**: [Suggest enhancement](https://github.com/aditandava/lmui/issues/new?labels=enhancement)
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 </div>
 
 ## 📄 License
@@ -501,10 +564,18 @@ npm test
 MIT © [aditandava](https://github.com/aditandava)
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer" width="100%">
 
-**Made with ❤️ by the LMUI Team**
+---
 
-⭐ Star us on GitHub — it motivates us a lot!
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,8,12,17&height=120&section=footer" width="100%">
+
+### 🌙 Made with Tranquility by [@aditandava](https://github.com/aditandava)
+
+<p><em>"Let your interfaces breathe"</em></p>
+
+⭐ **Star us on GitHub** — Your support brings calm to our journey
+
+[![GitHub](https://img.shields.io/badge/GitHub-aditandava-5F7161?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aditandava)
+[![NPM](https://img.shields.io/badge/NPM-lmui-6D8B74?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/lmui)
 
 </div>
