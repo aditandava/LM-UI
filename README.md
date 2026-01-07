@@ -1,581 +1,529 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,8,12,17&height=300&section=header&text=LMUI&fontSize=100&fontAlignY=38&desc=Lightweight%20Material%20UI%20Framework&descAlignY=60&descAlign=50&animation=twinkling" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117,1A1F2E,2C3E50,1A1F2E,0D1117&height=300&section=header&text=LM%20UI%20Launcher&fontSize=80&fontColor=6D8B74&fontAlignY=35&desc=Minimalist%20Android%20Launcher%20Experience&descSize=20&descAlignY=55&animation=fadeIn" width="100%">
 
-# 🌙 LMUI - Lightweight Material UI 🌙
-### ✨ Calm, Elegant UI Framework for Serene Web Experiences ✨
+<br/>
+
+# 🌲 LM UI Launcher 💧
+### ✨ *Where Minimalism Meets Fluid Design* ✨
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=20&duration=4000&pause=1500&color=8B9DA3&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=80&lines=Tranquil+%F0%9F%8C%BF+Minimalist+%F0%9F%8C%91+Nature-Inspired;Build+Serene+Interfaces+with+Grace" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=6D8B74&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=120&lines=Serene+%F0%9F%8C%BF+Minimal+%F0%9F%8C%91+Fluid;Like+Dewdrops+on+Your+Screen+%F0%9F%92%A7;Advanced+Android+Launcher+%E2%9C%A8;Real-time+Weather+%26+Battery+Monitoring" alt="Typing SVG" />
 </p>
 
-<p align="center"><em>"In the stillness of design, beauty emerges"</em></p>
+<p align="center"><em>"A launcher as calm as morning mist, as fluid as flowing water"</em> 💧🌲</p>
 
 <br />
 
-[![GitHub Stars](https://img.shields.io/github/stars/aditandava/lmui?style=for-the-badge&color=556B2F&logo=github&logoColor=white)](https://github.com/aditandava/lmui/stargazers)
-[![NPM Version](https://img.shields.io/npm/v/lmui?style=for-the-badge&color=5F7161&logo=npm&logoColor=white)](https://www.npmjs.com/package/lmui)
-[![Downloads](https://img.shields.io/npm/dm/lmui?style=for-the-badge&color=6D8B74&logo=npm&logoColor=white)](https://www.npmjs.com/package/lmui)
-[![License](https://img.shields.io/badge/License-MIT-8B9DA3?style=for-the-badge&logo=open-source-initiative&logoColor=white)](LICENSE)
-[![Made by](https://img.shields.io/badge/Made_by-aditandava-A8B5A8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aditandava)
+[![GitHub Stars](https://img.shields.io/github/stars/aditandava/LM-UI?style=for-the-badge&color=2D4A2B&logo=github&logoColor=6D8B74&labelColor=0D1117)](https://github.com/aditandava/LM-UI/stargazers)
+[![Forks](https://img.shields.io/github/forks/aditandava/LM-UI?style=for-the-badge&color=3D5A40&logo=github&logoColor=6D8B74&labelColor=0D1117)](https://github.com/aditandava/LM-UI/network/members)
+[![License](https://img.shields.io/badge/License-MIT-8B9DA3?style=for-the-badge&logo=open-source-initiative&logoColor=white&labelColor=0D1117)](LICENSE)
+[![Android](https://img.shields.io/badge/Platform-Android-6D8B74?style=for-the-badge&logo=android&logoColor=white&labelColor=0D1117)](https://www.android.com)
+[![Kotlin](https://img.shields.io/badge/Language-Kotlin-5F7161?style=for-the-badge&logo=kotlin&logoColor=white&labelColor=0D1117)](https://kotlinlang.org)
+[![Issues](https://img.shields.io/github/issues/aditandava/LM-UI?style=for-the-badge&color=556B2F&logo=github&logoColor=6D8B74&labelColor=0D1117)](https://github.com/aditandava/LM-UI/issues)
+[![Sponsor](https://img.shields.io/badge/Sponsor-💖_Support-ff69b4?style=for-the-badge&logo=github-sponsors&logoColor=white&labelColor=0D1117)](https://github.com/sponsors/aditandava)
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" style="opacity: 0.3;">
+<br/>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React-2D3436?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-2C3E50?style=for-the-badge&logo=typescript&logoColor=3498DB" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Vite-34495E?style=for-the-badge&logo=vite&logoColor=9B59B6" alt="Vite" />
-  <img src="https://img.shields.io/badge/Tailwind-1C2833?style=for-the-badge&logo=tailwind-css&logoColor=17A2B8" alt="Tailwind" />
-  <img src="https://img.shields.io/badge/Framer-212F3D?style=for-the-badge&logo=framer&logoColor=E74C3C" alt="Framer Motion" />
-</p>
-
-**LMUI** is a nature-inspired UI component library that brings tranquility and elegance to web development. Like morning dew on forest leaves, LMUI creates interfaces that breathe calmness into your applications.
+```ascii
+╔════════════════════════════════════════════════════════════════╗
+║  🌿  Minimalist Design  •  ⚡ Fluid Animations  •  💧 Serene  ║
+╚════════════════════════════════════════════════════════════════╝
+```
 
 <p align="center">
-  <a href="https://github.com/aditandava/lmui/issues?q=is%3Aissue+label%3Abug"><strong>🐛 Report Bug »</strong></a>
-  <br />
-  <a href="https://github.com/aditandava/lmui/issues?q=is%3Aissue+label%3Aenhancement"><strong>💡 Request Feature »</strong></a>
-  <br />
-  <br />
-  <a href="#-quick-start">Get Started</a>
-  ·
-  <a href="#-component-library">Components</a>
-  ·
-  <a href="#-core-architecture">Architecture</a>
-  ·
-  <a href="https://github.com/aditandava">@aditandava</a>
+  <img src="https://skillicons.dev/icons?i=androidstudio,kotlin,gradle&theme=dark" alt="Tech Stack" />
 </p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" style="opacity: 0.3;">
+**LM UI Launcher** is a sophisticated, modern Android launcher application that replaces your default home screen with a **minimalist**,
+- **Weather.kt**: Integrates Open-Meteo API with Retrofit, caches data, provides magazine quotes
 
-</div>
+</details>
 
-## 🌿 Philosophy
+<details>
+<summary><h3>🎭 Adapters & Animations</h3></summary>
 
-> *"Design should be like nature - effortless, balanced, and deeply calming."*
+<br/>
 
-LMUI embraces the quietness of misty forests and the gentleness of moonlit nights. Every component is crafted to provide a serene user experience, reducing cognitive load while maintaining visual beauty.
+- **AppsAdapter.kt** & **FavoritesAdapter.kt**: Efficient RecyclerView rendering with grid/list support
+- **ExplodeItemAnimator.kt**: Custom ItemAnimator with visually striking explode/implode effects
+- **Gesture Detection**: Swipe up (drawer), swipe down (notifications), long-press (settings)
+- **Blur Effects**: Android S+ RenderEffect for real-time wallpaper blur
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
-</div>
+</details>
 
-## ✨ Why Choose LMUI?
+<br/>
 
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <h3>🌑 Serene Aesthetics</h3>
-      <p>Inspired by nature's tranquility. Muted tones, gentle shadows, and organic animations create interfaces that soothe rather than overwhelm.</p>
-    </td>
-    <td align="center" width="33%">
-      <h3>🍃 Lightweight Core</h3>
-      <p>Minimal bundle size (12KB gzipped) ensures fast load times. Like a gentle breeze - barely noticeable but refreshingly present.</p>
-    </td>
-    <td align="center" width="33%">
-      <h3>🌲 Nature-Inspired Design</h3>
-      <p>Frosted glass effects mimicking morning dew, shadows soft as twilight, and transitions smooth as flowing water.</p>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="33%">
-      <h3>🌙 Dark Mode First</h3>
-      <p>Designed for low-light environments. Easy on the eyes, perfect for late-night coding sessions and mindful browsing.</p>
-    </td>
-    <td align="center" width="33%">
-      <h3>♿ Accessible & Calm</h3>
-      <p>WCAG 2.1 compliant with reduced motion support. Respects user preferences and promotes digital wellbeing.</p>
-    </td>
-    <td align="center" width="33%">
-      <h3>🎋 Zen Developer Experience</h3>
-      <p>Clear documentation, intuitive API, and TypeScript support. Build peacefully without friction.</p>
-    </td>
-  </tr>
-</table>
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
-</div>
-
-## 📊 Performance Metrics
-
-<div align="center">
-
-| Metric | LMUI | Material-UI | Ant Design | Chakra UI |
-|--------|------|-------------|------------|-----------|
-| **Bundle Size** | 🌿 12KB | 🟡 87KB | 🔴 234KB | 🟡 68KB |
-| **First Paint** | 🌿 0.8s | 🟡 1.5s | 🔴 2.1s | 🟡 1.3s |
-| **TTI** | 🌿 1.2s | 🟡 2.4s | 🔴 3.8s | 🟡 2.0s |
-| **Lighthouse** | 🌿 98/100 | 🟡 87/100 | 🔴 76/100 | 🟡 89/100 |
-| **Components** | 50+ | 60+ | 70+ | 45+ |
-| **Tree Shaking** | ✅ | ✅ | ⚠️ Limited | ✅ |
-
-</div>
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
-</div>
+---
 
 ## 🚀 Quick Start
 
-### Installation
+### 📥 Installation
 
+#### Option 1: Download APK
 ```bash
-# npm
-npm install lmui
+# Download the latest release
+https://github.com/aditandava/LM-UI/releases/latest
 
-# yarn
-yarn add lmui
-
-# pnpm
-pnpm add lmui
+# Install on your Android device (Android 8.0+)
+adb install lm-ui-launcher.apk
 ```
 
-### Basic Usage
+#### Option 2: Build from Source
+```bash
+# Clone the repository
+git clone https://github.com/aditandava/LM-UI.git
+cd LM-UI
 
-```jsx
-import { Button, Card, initLMUI } from 'lmui';
-import 'lmui/styles.css';
+# Open in Android Studio
+# File > Open > Select LM-UI folder
 
-// Initialize with serene theme
-initLMUI({
-  mode: 'dark', // Calm by default
-  colors: {
-    primary: { 500: '#6D8B74' } // Forest green
-  }
-});
-
-function App() {
-  return (
-    <Card variant="frosted">
-      <h2>Welcome to Tranquility</h2>
-      <Button variant="mist" size="lg">
-        Begin Journey
-      </Button>
-    </Card>
-  );
-}
+# Build and run
+./gradlew assembleDebug
 ```
 
-### Unique Variants
+<br/>
 
-```jsx
-// Frosted glass like morning dew
-<Card variant="frosted">Misty morning</Card>
+### ⚙️ Setup
 
-// Gentle shadows like twilight
-<Button variant="mist">Serene action</Button>
+1. **Install LM UI Launcher** on your Android device
+2. **Press Home button** → Select "LM UI" → Tap "Always"
+3. **Grant permissions**: Location (weather), Wallpaper access
+4. **Customize**: Long-press home screen → Settings → Configure to your liking
 
-// Moonlit glow effect
-<Badge variant="moonlight">Calm notification</Badge>
+<br/>
 
-// Forest depth
-<Modal variant="depth">Deep focus</Modal>
-```
+---
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
-</div>
-
-## 🎯 Component Library
-
-<details open>
-<summary><h3>📦 50+ Production-Ready Components</h3></summary>
+## 🎨 Customization
 
 <table>
   <tr>
-    <td width="25%">
-      <h4>📐 Layout</h4>
-      <ul>
-        <li>Container</li>
-        <li>Grid</li>
-        <li>Flex</li>
-        <li>Stack</li>
-        <li>Divider</li>
-        <li>Spacer</li>
-      </ul>
-    </td>
-    <td width="25%">
-      <h4>🎛️ Forms</h4>
-      <ul>
-        <li>Button (Mist, Frosted, Depth)</li>
-        <li>Input (Calm, Focused)</li>
-        <li>Textarea</li>
-        <li>Select</li>
-        <li>Checkbox (Gentle)</li>
-        <li>Radio (Serene)</li>
-        <li>Switch (Moonlit)</li>
-        <li>Slider (Flow)</li>
-        <li>DatePicker</li>
-      </ul>
-    </td>
-    <td width="25%">
-      <h4>📋 Display</h4>
-      <ul>
-        <li>Card (Frosted, Depth)</li>
-        <li>Avatar (Soft)</li>
-        <li>Badge (Moonlight)</li>
-        <li>Chip (Mist)</li>
-        <li>Table (Minimal)</li>
-        <li>List (Calm)</li>
-        <li>Accordion (Gentle)</li>
-        <li>Tabs (Flow)</li>
-        <li>Tooltip (Whisper)</li>
-        <li>Progress (Zen)</li>
-      </ul>
-    </td>
-    <td width="25%">
-      <h4>🔔 Feedback</h4>
-      <ul>
-        <li>Alert (Gentle)</li>
-        <li>Toast (Whisper)</li>
-        <li>Modal (Depth)</li>
-        <li>Drawer (Slide)</li>
-        <li>Loading (Flow)</li>
-        <li>Skeleton (Shimmer)</li>
-        <li>Popover (Float)</li>
-        <li>Notification (Soft)</li>
-      </ul>
-    </td>
+    <th>Feature</th>
+    <th>Options</th>
   </tr>
   <tr>
-    <td width="25%">
-      <h4>🧭 Navigation</h4>
-      <ul>
-        <li>Navbar (Frosted)</li>
-        <li>Sidebar (Depth)</li>
-        <li>Breadcrumb (Trail)</li>
-        <li>Pagination (Minimal)</li>
-        <li>Menu (Flow)</li>
-        <li>Link (Calm)</li>
-      </ul>
-    </td>
-    <td width="25%">
-      <h4>🎭 Advanced</h4>
-      <ul>
-        <li>Carousel (Gentle)</li>
-        <li>Timeline (Flow)</li>
-        <li>Stepper (Path)</li>
-        <li>Rating (Stars)</li>
-        <li>TreeView (Branch)</li>
-        <li>Transfer (Move)</li>
-      </ul>
-    </td>
-    <td width="25%">
-      <h4>📈 Visualization</h4>
-      <ul>
-        <li>Line Chart (Smooth)</li>
-        <li>Bar Chart (Calm)</li>
-        <li>Pie Chart (Serene)</li>
-        <li>Area Chart (Flow)</li>
-        <li>Gauge (Zen)</li>
-        <li>Sparkline (Minimal)</li>
-      </ul>
-    </td>
-    <td width="25%">
-      <h4>✨ Effects</h4>
-      <ul>
-        <li>Frost (Dew)</li>
-        <li>Parallax (Float)</li>
-        <li>Glow (Moonlight)</li>
-        <li>Shadow (Depth)</li>
-        <li>Shimmer (Ripple)</li>
-        <li>Fade (Mist)</li>
-      </ul>
-    </td>
+    <td><strong>🖼️ Display</strong></td>
+    <td>Full-screen mode, System bar visibility</td>
+  </tr>
+  <tr>
+    <td><strong>🔍 Search</strong></td>
+    <td>Toggle search bar on home screen</td>
+  </tr>
+  <tr>
+    <td><strong>📱 App Drawer</strong></td>
+    <td>Grid layout or Vertical list</td>
+  </tr>
+  <tr>
+    <td><strong>💫 Effects</strong></td>
+    <td>Drawer opacity (0-100%), Blur intensity, Icon animations</td>
+  </tr>
+  <tr>
+    <td><strong>🎯 Gestures</strong></td>
+    <td>Swipe down for notifications, Long-press for settings</td>
+  </tr>
+  <tr>
+    <td><strong>📌 Apps</strong></td>
+    <td>Add to favorites, Hide apps, App info, Uninstall</td>
   </tr>
 </table>
 
-</details>
+<br/>
+
+---
+
+## 🛠️ Technical Stack
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
+
+| Technology | Purpose |
+|------------|---------|
+| <img src="https://img.shields.io/badge/Kotlin-5F7161?style=for-the-badge&logo=kotlin&logoColor=white&labelColor=0D1117"/> | Primary language for app logic |
+| <img src="https://img.shields.io/badge/Jetpack-6D8B74?style=for-the-badge&logo=android&logoColor=white&labelColor=0D1117"/> | ViewModel, LiveData, Coroutines |
+| <img src="https://img.shields.io/badge/Material_Design_3-556B2F?style=for-the-badge&logo=material-design&logoColor=white&labelColor=0D1117"/> | UI components and theming |
+| <img src="https://img.shields.io/badge/Retrofit-8B9DA3?style=for-the-badge&logo=square&logoColor=white&labelColor=0D1117"/> | Weather API integration |
+| <img src="https://img.shields.io/badge/Coroutines-3D5A40?style=for-the-badge&logo=kotlin&logoColor=white&labelColor=0D1117"/> | Async/background operations |
+| <img src="https://img.shields.io/badge/RenderEffect-2D4A2B?style=for-the-badge&logo=android&logoColor=white&labelColor=0D1117"/> | Real-time blur effects (API 31+) |
+
 </div>
 
-## 🏗️ Core Architecture
+<br/>
 
-<details>
-<summary><h3>💻 View Core Engine Implementation</h3></summary>
+---
 
-```javascript
-/**
- * ═══════════════════════════════════════════════════════════════════
- *                    LMUI CORE ENGINE v2.0
- *              Serene UI Components & Calm Interactions
- * ═══════════════════════════════════════════════════════════════════
- */
+## 📋 Permissions
 
-// ────────────────────────────────────────────────────────────────────
-// 1. SERENE THEME CONFIGURATION
-// ────────────────────────────────────────────────────────────────────
+The launcher requires the following permissions:
 
-const calmTheme = {
-  colors: {
-    forest: { 50: '#F0F4F1', 500: '#6D8B74', 900: '#3D5A40' },
-    mist: { 50: '#F5F7F8', 500: '#8B9DA3', 900: '#4A5459' },
-    twilight: { 50: '#F2F4E8', 500: '#556B2F', 900: '#2C3719' },
-    moonlight: { 50: '#F8F9F8', 500: '#A8B5A8', 900: '#5C6A5C' }
-  },
-  spacing: { xs: '4px', sm: '8px', md: '16px', lg: '24px', xl: '32px' },
-  radius: { sm: '6px', md: '10px', lg: '16px', full: '9999px' },
-  effects: {
-    frost: 'blur(10px) saturate(1.8) brightness(1.1)',
-    mist: 'blur(8px) saturate(1.2)',
-    glow: '0 0 20px rgba(141, 157, 163, 0.3)',
-    depth: '0 10px 40px rgba(0, 0, 0, 0.4), 0 2px 8px rgba(0, 0, 0, 0.2)'
-  }
-};
+```xml
+<!-- Required for listing all installed apps -->
+<uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
 
-// ────────────────────────────────────────────────────────────────────
-// 2. CALM INITIALIZATION
-// ────────────────────────────────────────────────────────────────────
+<!-- Wallpaper management -->
+<uses-permission android:name="android.permission.SET_WALLPAPER" />
 
-export const initLMUI = (customConfig = {}) => {
-  console.log('🌙 LMUI: Embracing tranquility...');
-  const config = deepMerge(calmTheme, customConfig);
-  injectCSSVariables(config);
-  return { theme: config, version: '2.0.0', mood: 'serene' };
-};
+<!-- Weather integration -->
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+<uses-permission android:name="android.permission.INTERNET" />
 
-// ────────────────────────────────────────────────────────────────────
-// 3. GENTLE ANIMATION SYSTEM
-// ────────────────────────────────────────────────────────────────────
-
-export const serenityAnimations = {
-  fadeIn: {
-    keyframes: [
-      { opacity: 0, transform: 'translateY(8px)' },
-      { opacity: 1, transform: 'translateY(0)' }
-    ],
-    options: { duration: 500, easing: 'cubic-bezier(0.16, 1, 0.3, 1)' }
-  },
-  mist: {
-    keyframes: [
-      { opacity: 0, filter: 'blur(10px)' },
-      { opacity: 1, filter: 'blur(0)' }
-    ],
-    options: { duration: 800, easing: 'ease-out' }
-  },
-  float: {
-    keyframes: [
-      { transform: 'translateY(0px)' },
-      { transform: 'translateY(-6px)' },
-      { transform: 'translateY(0px)' }
-    ],
-    options: { duration: 3000, easing: 'ease-in-out', iterations: Infinity }
-  }
-};
-
-export const animateCalm = (element, effect = 'fadeIn', callback) => {
-  if (!element || !serenityAnimations[effect]) return;
-  const { keyframes, options } = serenityAnimations[effect];
-  const animation = element.animate(keyframes, options);
-  if (callback) animation.onfinish = callback;
-  return animation;
-};
-
-// ────────────────────────────────────────────────────────────────────
-// 4. NATURE-INSPIRED EFFECTS
-// ────────────────────────────────────────────────────────────────────
-
-export const applyFrost = (element, intensity = 'medium') => {
-  const levels = {
-    light: { blur: 6, opacity: 0.6, saturation: 1.1 },
-    medium: { blur: 10, opacity: 0.7, saturation: 1.3 },
-    heavy: { blur: 16, opacity: 0.8, saturation: 1.5 }
-  };
-  
-  const { blur, opacity, saturation } = levels[intensity];
-  
-  Object.assign(element.style, {
-    background: `rgba(255, 255, 255, ${opacity})`,
-    backdropFilter: `blur(${blur}px) saturate(${saturation})`,
-    WebkitBackdropFilter: `blur(${blur}px) saturate(${saturation})`,
-    border: '1px solid rgba(255, 255, 255, 0.2)',
-    boxShadow: '0 8px 32px rgba(31, 38, 135, 0.15)'
-  });
-};
-
-export const applyDepth = (element, level = 'medium') => {
-  const shadows = {
-    subtle: '0 2px 8px rgba(0, 0, 0, 0.1)',
-    medium: '0 10px 30px rgba(0, 0, 0, 0.15), 0 2px 8px rgba(0, 0, 0, 0.1)',
-    deep: '0 20px 60px rgba(0, 0, 0, 0.3), 0 4px 12px rgba(0, 0, 0, 0.2)'
-  };
-  
-  element.style.boxShadow = shadows[level];
-};
-
-export const applyMoonlight = (element, color = '#A8B5A8') => {
-  Object.assign(element.style, {
-    boxShadow: `0 0 20px ${color}40, 0 0 40px ${color}20`,
-    border: `1px solid ${color}30`
-  });
-};
-
-// ────────────────────────────────────────────────────────────────────
-// 5. RESPONSIVE CALM
-// ────────────────────────────────────────────────────────────────────
-
-export const breakpoints = {
-  xs: 320, sm: 640, md: 768, lg: 1024, xl: 1280, '2xl': 1536
-};
-
-export const useBreakpoint = () => {
-  const width = window.innerWidth;
-  if (width < breakpoints.sm) return 'xs';
-  if (width < breakpoints.md) return 'sm';
-  if (width < breakpoints.lg) return 'md';
-  if (width < breakpoints.xl) return 'lg';
-  if (width < breakpoints['2xl']) return 'xl';
-  return '2xl';
-};
-
-// ────────────────────────────────────────────────────────────────────
-// 6. ZEN UTILITIES
-// ────────────────────────────────────────────────────────────────────
-
-const deepMerge = (target, source) => {
-  const output = { ...target };
-  if (isObject(target) && isObject(source)) {
-    Object.keys(source).forEach(key => {
-      if (isObject(source[key])) {
-        output[key] = key in target 
-          ? deepMerge(target[key], source[key])
-          : source[key];
-      } else {
-        output[key] = source[key];
-      }
-    });
-  }
-  return output;
-};
-
-const isObject = (item) => 
-  item && typeof item === 'object' && !Array.isArray(item);
-
-const injectCSSVariables = (theme) => {
-  const root = document.documentElement;
-  Object.entries(theme.colors).forEach(([key, shades]) => {
-    if (typeof shades === 'object') {
-      Object.entries(shades).forEach(([shade, value]) => {
-        root.style.setProperty(`--lmui-${key}-${shade}`, value);
-      });
-    }
-  });
-  console.log('🍃 Serenity infused into CSS variables');
-};
-
-/**
- * ═══════════════════════════════════════════════════════════════════
- *           "In stillness, the UI finds its true purpose"
- * ═══════════════════════════════════════════════════════════════════
- */
+<!-- Notification panel gesture -->
+<uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
 ```
 
-</details>
+<br/>
+
+---
+
+## 🏗️ Architecture
+
+### Technical Logic Flow
+
+```
+1. Startup
+   └─> MainActivity initializes PrefsManager, WeatherManager, MainViewModel
+
+2. Insets Handling
+   └─> WindowInsetsControllerCompat manages edge-to-edge display
+
+3. Data Fetching
+   ├─> MainViewModel loads apps (background thread)
+   └─> WeatherManager fetches weather (if permissions granted)
+
+4. UI Binding
+   ├─> Data bound to RecyclerViews via adapters
+   └─> RenderEffect prepared for wallpaper blur
+
+5. Interaction
+   ├─> Gestures trigger BottomSheet state changes
+   ├─> Taps launch apps
+   └─> Long-presses open management dialogs
+```
+
+### Performance Optimizations
+
+- ✅ **Large Heap**: Enabled for handling many app icons
+- ✅ **Hardware Acceleration**: Full utilization for smooth animations
+- ✅ **Kotlin Coroutines**: Prevents ANRs with efficient thread management
+- ✅ **Lazy Loading**: Asynchronous app icon and weather data handling
+- ✅ **State Caching**: Weather data persisted for offline availability
+
+<br/>
+
+---
+
+## 📱 Screenshots
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+
+| Home Screen | App Drawer | Settings |
+|-------------|------------|----------|
+| ![Home](https://via.placeholder.com/250x500/0D1117/6D8B74?text=Home+Screen) | ![Drawer](https://via.placeholder.com/250x500/0D1117/6D8B74?text=App+Drawer) | ![Settings](https://via.placeholder.com/250x500/0D1117/6D8B74?text=Settings) |
+
+*Replace placeholders with actual screenshots*
+
 </div>
 
-## 🎨 Theming System
+<br/>
 
-### Calm Color Palette
+---
 
-```jsx
-// Nature-inspired default theme
-initLMUI({
-  colors: {
-    forest: { 500: '#6D8B74', 600: '#5F7161' },
-    mist: { 500: '#8B9DA3', 600: '#7A8B92' },
-    twilight: { 500: '#556B2F', 600: '#4A5D29' },
-    moonlight: { 500: '#A8B5A8', 600: '#96A396' }
-  },
-  effects: {
-    frost: 'blur(10px) saturate(1.8)',
-    glow: '0 0 20px rgba(141, 157, 163, 0.3)',
-    depth: '0 10px 40px rgba(0, 0, 0, 0.4)'
-  }
-});
-```
+## 💖 Support This Project
 
-### Custom Serene Themes
-
-```jsx
-// Evening forest theme
-<ThemeProvider theme="evening-forest">
-  <App />
-</ThemeProvider>
-
-// Misty morning theme
-<ThemeProvider theme="misty-morning">
-  <App />
-</ThemeProvider>
-```
+If LM UI Launcher brings serenity to your Android experience 🌿, consider supporting development:
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
+
+<a href="https://github.com/sponsors/aditandava">
+  <img src="https://img.shields.io/badge/💖_Sponsor_on_GitHub-Become_a_Sponsor-ff69b4?style=for-the-badge&logo=github-sponsors&logoColor=white&labelColor=0D1117" alt="Sponsor"/>
+</a>
+
+<br/><br/>
+
+Your support helps maintain and improve LM UI Launcher, ensuring it continues to bring **calm** and **elegance** to Android devices everywhere.
+
 </div>
+
+<br/>
+
+---
 
 ## 🤝 Contributing
 
-We welcome contributions from the community! LMUI thrives on collaborative serenity.
+We welcome contributions! LM UI Launcher thrives on collaborative development 🌱
 
 ### How to Contribute
 
 ```bash
 # Fork the repository
 # Clone your fork
-git clone https://github.com/YOUR_USERNAME/lmui.git
+git clone https://github.com/YOUR_USERNAME/LM-UI.git
 
 # Create a feature branch
-git checkout -b feature/calm-enhancement
+git checkout -b feature/awesome-enhancement
 
-# Make your changes with mindful commits
-git commit -m "feat: add moonlight effect to cards"
+# Make your changes
+# Test thoroughly on multiple devices
+
+# Commit with clear messages
+git commit -m "feat: add swipe gesture customization"
 
 # Push to your fork
-git push origin feature/calm-enhancement
+git push origin feature/awesome-enhancement
 
 # Open a Pull Request
 ```
 
-### Guidelines
+### Development Guidelines
 
-- **Keep it calm**: Follow the serene design philosophy
-- **Test thoroughly**: Ensure all components maintain tranquility
-- **Document clearly**: Help others find peace in your code
-- **Be respectful**: Foster a welcoming, mindful community
+- 🎯 **Keep it minimal**: Follow the serene design philosophy
+- ✅ **Test on real devices**: Ensure smooth performance
+- 📝 **Document your code**: Help others understand your changes
+- 🙏 **Be respectful**: Foster a welcoming community
 
 ### Report Issues
 
-Found a bug? Have a feature request?
-
-- 🐛 **Report Bug**: [Open an issue](https://github.com/aditandava/lmui/issues/new?labels=bug)
-- 💡 **Request Feature**: [Suggest enhancement](https://github.com/aditandava/lmui/issues/new?labels=enhancement)
-
 <div align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
+
+<a href="https://github.com/aditandava/LM-UI/issues/new?labels=bug&template=bug_report.md&title=%5BBUG%5D+">
+  <img src="https://img.shields.io/badge/🐛_Report_Bug-Critical_Issue-ff4444?style=for-the-badge&labelColor=0D1117" alt="Report Bug"/>
+</a>
+<a href="https://github.com/aditandava/LM-UI/issues/new?labels=enhancement&template=feature_request.md&title=%5BFEATURE%5D+">
+  <img src="https://img.shields.io/badge/💡_Request_Feature-New_Enhancement-44ff44?style=for-the-badge&labelColor=0D1117" alt="Request Feature"/>
+</a>
+<a href="https://github.com/aditandava/LM-UI/issues">
+  <img src="https://img.shields.io/badge/📋_View_All_Issues-Browse_Issues-4444ff?style=for-the-badge&labelColor=0D1117" alt="View Issues"/>
+</a>
+
 </div>
 
-## 📄 License
-
-MIT © [aditandava](https://github.com/aditandava)
-
-<div align="center">
+<br/>
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,8,12,17&height=120&section=footer" width="100%">
+## 📄 License
+
+<div align="center">
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-8B9DA3?style=for-the-badge&logo=open-source-initiative&logoColor=white&labelColor=0D1117)](LICENSE)
+
+**MIT © [aditandava](https://github.com/aditandava)**
+
+</div>
+
+<br/>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117,1A1F2E,2C3E50,1A1F2E,0D1117&height=150&section=footer" width="100%">
+
+<br/>
 
 ### 🌙 Made with Tranquility by [@aditandava](https://github.com/aditandava)
 
-<p><em>"Let your interfaces breathe"</em></p>
+<br/>
+
+<p><em>"Let your launcher breathe like dewdrops on evergreen branches"</em> 💧🌲</p>
 
 ⭐ **Star us on GitHub** — Your support brings calm to our journey
 
-[![GitHub](https://img.shields.io/badge/GitHub-aditandava-5F7161?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aditandava)
-[![NPM](https://img.shields.io/badge/NPM-lmui-6D8B74?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/lmui)
+<br/>
+
+<a href="https://github.com/aditandava">
+  <img src="https://img.shields.io/badge/GitHub-aditandava-5F7161?style=for-the-badge&logo=github&logoColor=6D8B74&labelColor=0D1117" alt="GitHub"/>
+</a>
+<a href="https://github.com/sponsors/aditandava">
+  <img src="https://img.shields.io/badge/Sponsor-❤_Support_Development-ff69b4?style=for-the-badge&logo=github-sponsors&logoColor=white&labelColor=0D1117" alt="Sponsor"/>
+</a>
+
+<br/><br/>
+
+### 🌿 Connect & Explore
+
+<p align="center">
+  <a href="https://github.com/aditandava/LM-UI">📦 Repository</a> •
+  <a href="https://github.com/aditandava/LM-UI/issues">🐛 Issues</a> •
+  <a href="https://github.com/aditandava/LM-UI/discussions">💬 Discussions</a> •
+  <a href="https://github.com/aditandava/LM-UI/releases">📥 Releases</a> •
+  <a href="https://github.com/sponsors/aditandava">💖 Sponsor</a>
+</p>
+
+<br/>
+
+```ascii
+╔═══════════════════════════════════════════════════════════════════╗
+║  Package: com.yuhan.lmui  •  Min SDK: 26  •  Target SDK: 34     ║
+║  Architecture: MVVM  •  Language: Kotlin  •  License: MIT        ║
+╚═══════════════════════════════════════════════════════════════════╝
+```
+
+<br/>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=aditandava&label=Profile%20Views&color=6D8B74&style=for-the-badge&labelColor=0D1117" alt="Profile Views"/>
+  <img src="https://img.shields.io/github/stars/aditandava/LM-UI?style=for-the-badge&logo=github&logoColor=6D8B74&labelColor=0D1117&color=2D4A2B" alt="Stars"/>
+</p>
+
+</div>      <h3>🌑 Minimal Design</h3>
+      <p>Clean, distraction-free interface with muted tones and gentle shadows. Material Design 3 principles ensure a modern, cohesive look.</p>
+    </td>
+    <td align="center" width="33%">
+      <br/>
+      <h3>💧 Fluid Animations</h3>
+      <p>Smooth transitions and organic animations. Real-time blur effects when opening the app drawer, creating a sense of depth.</p>
+    </td>
+    <td align="center" width="33%">
+      <br/>
+      <h3>🌤️ Real-time Weather</h3>
+      <p>Integrated weather system with Open-Meteo API. Displays temperature, humidity, wind, UV, and AQI with inspirational quotes.</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <br/>
+      <h3>🔋 Battery Monitoring</h3>
+      <p>Live battery status with charging animations. Dynamic scaling effects when plugged in (AC/USB detection).</p>
+    </td>
+    <td align="center" width="33%">
+      <br/>
+      <h3>🎨 Customizable</h3>
+      <p>Full-screen mode, grid/list layouts, adjustable opacity and blur. Hide apps, manage favorites, and personalize gestures.</p>
+    </td>
+    <td align="center" width="33%">
+      <br/>
+      <h3>⚡ Performance</h3>
+      <p>Built with Kotlin Coroutines and MVVM architecture. Hardware-accelerated rendering for smooth 60fps+ experience.</p>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+---
+
+## 📦 Core Components
+
+<details open>
+<summary><h3>🏠 Activities & UI</h3></summary>
+
+<br/>
+
+| Component | Description |
+|-----------|-------------|
+| **MainActivity.kt** | Heart of the launcher. Manages home screen, time/date display, battery monitoring, weather UI, and app drawer with blur effects. |
+| **SettingsActivity.kt** | Configuration hub for full-screen mode, layout options, opacity, blur magnitude, and gesture controls. |
+| **SearchPanelActivity.kt** | Dedicated search interface with auto-keyboard for quick app access. |
+| **DefaultHomeActivity.kt** | Helper to prompt users to set LM UI as default launcher. |
+
+</details>
+
+<details>
+<summary><h3>🧠 Architecture & Data</h3></summary>
+
+<br/>
+
+**MVVM Pattern** with Jetpack components:
+
+```
+┌─────────────────────────────────────────────────┐
+│              MainActivity                       │
+│  ┌──────────────────────────────────────────┐  │
+│  │  UI Layer (Views, RecyclerViews)         │  │
+│  └──────────────────────────────────────────┘  │
+│                      ▲                          │
+│                      │ StateFlow                │
+│                      │                          │
+│  ┌──────────────────────────────────────────┐  │
+│  │  MainViewModel                           │  │
+│  │  • App Loading (PackageManager)          │  │
+│  │  • StateFlow (apps, favorites, weather)  │  │
+│  │  • Coroutines (Dispatchers.IO)           │  │
+│  └──────────────────────────────────────────┘  │
+│                      ▲                          │
+│                      │                          │
+│  ┌──────────────────────────────────────────┐  │
+│  │  Data Layer                              │  │
+│  │  • PrefsManager (SharedPreferences)      │  │
+│  │  • WeatherManager (Retrofit + Gson)      │  │
+│  │  • AppInfo Models                        │  │
+│  └──────────────────────────────────────────┘  │
+└─────────────────────────────────────────────────┘
+```
+
+**Key Classes:**
+- **MainViewModel.kt**: Manages state, queries PackageManager, exposes StateFlows
+- **PrefsManager.kt**: Persistent storage for favorites, hidden apps, UI settings
+- **Weather.kt**: Integrates Open-<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117,1A1F2E,2C3E50,1A1F2E,0D1117&height=300&section=header&text=LM%20UI%20Launcher&fontSize=80&fontColor=6D8B74&fontAlignY=35&desc=Minimalist%20Android%20Launcher%20Experience&descSize=20&descAlignY=55&animation=fadeIn" width="100%">
+
+<br/>
+
+# 🌲 LM UI Launcher 💧
+### ✨ *Where Minimalism Meets Fluid Design* ✨
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=6D8B74&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=120&lines=Serene+%F0%9F%8C%BF+Minimal+%F0%9F%8C%91+Fluid;Like+Dewdrops+on+Your+Screen+%F0%9F%92%A7;Advanced+Android+Launcher+%E2%9C%A8;Real-time+Weather+%26+Battery+Monitoring" alt="Typing SVG" />
+</p>
+
+<p align="center"><em>"A launcher as calm as morning mist, as fluid as flowing water"</em> 💧🌲</p>
+
+<br />
+
+[![GitHub Stars](https://img.shields.io/github/stars/aditandava/LM-UI?style=for-the-badge&color=2D4A2B&logo=github&logoColor=6D8B74&labelColor=0D1117)](https://github.com/aditandava/LM-UI/stargazers)
+[![Forks](https://img.shields.io/github/forks/aditandava/LM-UI?style=for-the-badge&color=3D5A40&logo=github&logoColor=6D8B74&labelColor=0D1117)](https://github.com/aditandava/LM-UI/network/members)
+[![License](https://img.shields.io/badge/License-MIT-8B9DA3?style=for-the-badge&logo=open-source-initiative&logoColor=white&labelColor=0D1117)](LICENSE)
+[![Android](https://img.shields.io/badge/Platform-Android-6D8B74?style=for-the-badge&logo=android&logoColor=white&labelColor=0D1117)](https://www.android.com)
+[![Kotlin](https://img.shields.io/badge/Language-Kotlin-5F7161?style=for-the-badge&logo=kotlin&logoColor=white&labelColor=0D1117)](https://kotlinlang.org)
+[![Issues](https://img.shields.io/github/issues/aditandava/LM-UI?style=for-the-badge&color=556B2F&logo=github&logoColor=6D8B74&labelColor=0D1117)](https://github.com/aditandava/LM-UI/issues)
+[![Sponsor](https://img.shields.io/badge/Sponsor-💖_Support-ff69b4?style=for-the-badge&logo=github-sponsors&logoColor=white&labelColor=0D1117)](https://github.com/sponsors/aditandava)
+
+<br/>
+
+```ascii
+╔════════════════════════════════════════════════════════════════╗
+║  🌿  Minimalist Design  •  ⚡ Fluid Animations  •  💧 Serene  ║
+╚════════════════════════════════════════════════════════════════╝
+```
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=androidstudio,kotlin,gradle&theme=dark" alt="Tech Stack" />
+</p>
+
+**LM UI Launcher** is a sophisticated, modern Android launcher application that replaces your default home screen with a **minimalist**, **nature-inspired** interface. Like dewdrops glistening on evergreen branches, LM UI brings tranquility and elegance to your Android experience.
+
+<p align="center">
+  <a href="#-features">🎯 Features</a> •
+  <a href="#-quick-start">🚀 Quick Start</a> •
+  <a href="#-architecture">🏗️ Architecture</a> •
+  <a href="#-screenshots">📱 Screenshots</a> •
+  <a href="https://github.com/aditandava">👤 @aditandava</a> •
+  <a href="https://github.com/sponsors/aditandava">💖 Sponsor</a>
+</p>
+
+<br/>
+
+---
 
 </div>
+
+## 🌿 Philosophy
+
+> *"A launcher should be like nature - effortless, balanced, and deeply calming. Every interaction should feel like a gentle breeze through pine trees."*
+
+LM UI Launcher embraces **minimalism** and **fluid design**, removing clutter and distraction from your home screen. Inspired by the serenity of misty forests and moonlit nights, every animation, gesture, and transition is crafted to provide a **calm**, **responsive** experience.
+
+<br/>
+
+---
+
+## ✨ Features
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <br/>
+      <h3>🌑 Minimal Design</h3>
+      <p>Clean, dist
