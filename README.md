@@ -21,7 +21,6 @@
 [![Android](https://img.shields.io/badge/Platform-Android-6D8B74?style=for-the-badge&logo=android&logoColor=white&labelColor=0D1117)](https://www.android.com)
 [![Kotlin](https://img.shields.io/badge/Language-Kotlin-5F7161?style=for-the-badge&logo=kotlin&logoColor=white&labelColor=0D1117)](https://kotlinlang.org)
 [![Issues](https://img.shields.io/github/issues/aditandava/LM-UI?style=for-the-badge&color=556B2F&logo=github&logoColor=6D8B74&labelColor=0D1117)](https://github.com/aditandava/LM-UI/issues)
-[![Sponsor](https://img.shields.io/badge/Sponsor-💖_Support-ff69b4?style=for-the-badge&logo=github-sponsors&logoColor=white&labelColor=0D1117)](https://github.com/sponsors/aditandava)
 
 <br/>
 
@@ -35,7 +34,126 @@
   <img src="https://skillicons.dev/icons?i=androidstudio,kotlin,gradle&theme=dark" alt="Tech Stack" />
 </p>
 
-**LM UI Launcher** is a sophisticated, modern Android launcher application that replaces your default home screen with a **minimalist**,
+**LM UI Launcher** is a sophisticated, modern Android launcher application that replaces your default home screen with a **minimalist**, **nature-inspired** interface. Like dewdrops glistening on evergreen branches, LM UI brings tranquility and elegance to your Android experience.
+
+<p align="center">
+  <a href="#-features">🎯 Features</a> •
+  <a href="#-quick-start">🚀 Quick Start</a> •
+  <a href="#-architecture">🏗️ Architecture</a> •
+  <a href="#-contributing">🤝 Contributing</a>
+</p>
+
+<br/>
+
+---
+
+</div>
+
+## 🌿 Philosophy
+
+> *"A launcher should be like nature - effortless, balanced, and deeply calming. Every interaction should feel like a gentle breeze through pine trees."*
+
+LM UI Launcher embraces **minimalism** and **fluid design**, removing clutter and distraction from your home screen. Inspired by the serenity of misty forests and moonlit nights, every animation, gesture, and transition is crafted to provide a **calm**, **responsive** experience.
+
+<br/>
+
+---
+
+## ✨ Features
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <br/>
+      <h3>🌑 Minimal Design</h3>
+      <p>Clean, distraction-free interface with muted tones and gentle shadows. Material Design 3 principles ensure a modern, cohesive look.</p>
+    </td>
+    <td align="center" width="33%">
+      <br/>
+      <h3>💧 Fluid Animations</h3>
+      <p>Smooth transitions and organic animations. Real-time blur effects when opening the app drawer, creating a sense of depth.</p>
+    </td>
+    <td align="center" width="33%">
+      <br/>
+      <h3>🌤️ Real-time Weather</h3>
+      <p>Integrated weather system with Open-Meteo API. Displays temperature, humidity, wind, UV, and AQI with inspirational quotes.</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <br/>
+      <h3>🔋 Battery Monitoring</h3>
+      <p>Live battery status with charging animations. Dynamic scaling effects when plugged in (AC/USB detection).</p>
+    </td>
+    <td align="center" width="33%">
+      <br/>
+      <h3>🎨 Customizable</h3>
+      <p>Full-screen mode, grid/list layouts, adjustable opacity and blur. Hide apps, manage favorites, and personalize gestures.</p>
+    </td>
+    <td align="center" width="33%">
+      <br/>
+      <h3>⚡ Performance</h3>
+      <p>Built with Kotlin Coroutines and MVVM architecture. Hardware-accelerated rendering for smooth 60fps+ experience.</p>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+---
+
+## 📦 Core Components
+
+<details open>
+<summary><h3>🏠 Activities & UI</h3></summary>
+
+<br/>
+
+| Component | Description |
+|-----------|-------------|
+| **MainActivity.kt** | Heart of the launcher. Manages home screen, time/date display, battery monitoring, weather UI, and app drawer with blur effects. |
+| **SettingsActivity.kt** | Configuration hub for full-screen mode, layout options, opacity, blur magnitude, and gesture controls. |
+| **SearchPanelActivity.kt** | Dedicated search interface with auto-keyboard for quick app access. |
+| **DefaultHomeActivity.kt** | Helper to prompt users to set LM UI as default launcher. |
+
+</details>
+
+<details>
+<summary><h3>🧠 Architecture & Data</h3></summary>
+
+<br/>
+
+**MVVM Pattern** with Jetpack components:
+
+```
+┌─────────────────────────────────────────────────┐
+│              MainActivity                       │
+│  ┌──────────────────────────────────────────┐  │
+│  │  UI Layer (Views, RecyclerViews)         │  │
+│  └──────────────────────────────────────────┘  │
+│                      ▲                          │
+│                      │ StateFlow                │
+│                      │                          │
+│  ┌──────────────────────────────────────────┐  │
+│  │  MainViewModel                           │  │
+│  │  • App Loading (PackageManager)          │  │
+│  │  • StateFlow (apps, favorites, weather)  │  │
+│  │  • Coroutines (Dispatchers.IO)           │  │
+│  └──────────────────────────────────────────┘  │
+│                      ▲                          │
+│                      │                          │
+│  ┌──────────────────────────────────────────┐  │
+│  │  Data Layer                              │  │
+│  │  • PrefsManager (SharedPreferences)      │  │
+│  │  • WeatherManager (Retrofit + Gson)      │  │
+│  │  • AppInfo Models                        │  │
+│  └──────────────────────────────────────────┘  │
+└─────────────────────────────────────────────────┘
+```
+
+**Key Classes:**
+- **MainViewModel.kt**: Manages state, queries PackageManager, exposes StateFlows
+- **PrefsManager.kt**: Persistent storage for favorites, hidden apps, UI settings
 - **Weather.kt**: Integrates Open-Meteo API with Retrofit, caches data, provides magazine quotes
 
 </details>
@@ -66,7 +184,7 @@
 https://github.com/aditandava/LM-UI/releases/latest
 
 # Install on your Android device (Android 8.0+)
-adb install lm-ui-launcher.apk
+adb install lm-ui.apk
 ```
 
 #### Option 2: Build from Source
@@ -212,42 +330,6 @@ The launcher requires the following permissions:
 
 ---
 
-## 📱 Screenshots
-
-<div align="center">
-
-| Home Screen | App Drawer | Settings |
-|-------------|------------|----------|
-| ![Home](https://via.placeholder.com/250x500/0D1117/6D8B74?text=Home+Screen) | ![Drawer](https://via.placeholder.com/250x500/0D1117/6D8B74?text=App+Drawer) | ![Settings](https://via.placeholder.com/250x500/0D1117/6D8B74?text=Settings) |
-
-*Replace placeholders with actual screenshots*
-
-</div>
-
-<br/>
-
----
-
-## 💖 Support This Project
-
-If LM UI Launcher brings serenity to your Android experience 🌿, consider supporting development:
-
-<div align="center">
-
-<a href="https://github.com/sponsors/aditandava">
-  <img src="https://img.shields.io/badge/💖_Sponsor_on_GitHub-Become_a_Sponsor-ff69b4?style=for-the-badge&logo=github-sponsors&logoColor=white&labelColor=0D1117" alt="Sponsor"/>
-</a>
-
-<br/><br/>
-
-Your support helps maintain and improve LM UI Launcher, ensuring it continues to bring **calm** and **elegance** to Android devices everywhere.
-
-</div>
-
-<br/>
-
----
-
 ## 🤝 Contributing
 
 We welcome contributions! LM UI Launcher thrives on collaborative development 🌱
@@ -334,9 +416,6 @@ git push origin feature/awesome-enhancement
 <a href="https://github.com/aditandava">
   <img src="https://img.shields.io/badge/GitHub-aditandava-5F7161?style=for-the-badge&logo=github&logoColor=6D8B74&labelColor=0D1117" alt="GitHub"/>
 </a>
-<a href="https://github.com/sponsors/aditandava">
-  <img src="https://img.shields.io/badge/Sponsor-❤_Support_Development-ff69b4?style=for-the-badge&logo=github-sponsors&logoColor=white&labelColor=0D1117" alt="Sponsor"/>
-</a>
 
 <br/><br/>
 
@@ -345,9 +424,7 @@ git push origin feature/awesome-enhancement
 <p align="center">
   <a href="https://github.com/aditandava/LM-UI">📦 Repository</a> •
   <a href="https://github.com/aditandava/LM-UI/issues">🐛 Issues</a> •
-  <a href="https://github.com/aditandava/LM-UI/discussions">💬 Discussions</a> •
-  <a href="https://github.com/aditandava/LM-UI/releases">📥 Releases</a> •
-  <a href="https://github.com/sponsors/aditandava">💖 Sponsor</a>
+  <a href="https://github.com/aditandava/LM-UI/releases">📥 Releases</a>
 </p>
 
 <br/>
@@ -366,164 +443,4 @@ git push origin feature/awesome-enhancement
   <img src="https://img.shields.io/github/stars/aditandava/LM-UI?style=for-the-badge&logo=github&logoColor=6D8B74&labelColor=0D1117&color=2D4A2B" alt="Stars"/>
 </p>
 
-</div>      <h3>🌑 Minimal Design</h3>
-      <p>Clean, distraction-free interface with muted tones and gentle shadows. Material Design 3 principles ensure a modern, cohesive look.</p>
-    </td>
-    <td align="center" width="33%">
-      <br/>
-      <h3>💧 Fluid Animations</h3>
-      <p>Smooth transitions and organic animations. Real-time blur effects when opening the app drawer, creating a sense of depth.</p>
-    </td>
-    <td align="center" width="33%">
-      <br/>
-      <h3>🌤️ Real-time Weather</h3>
-      <p>Integrated weather system with Open-Meteo API. Displays temperature, humidity, wind, UV, and AQI with inspirational quotes.</p>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="33%">
-      <br/>
-      <h3>🔋 Battery Monitoring</h3>
-      <p>Live battery status with charging animations. Dynamic scaling effects when plugged in (AC/USB detection).</p>
-    </td>
-    <td align="center" width="33%">
-      <br/>
-      <h3>🎨 Customizable</h3>
-      <p>Full-screen mode, grid/list layouts, adjustable opacity and blur. Hide apps, manage favorites, and personalize gestures.</p>
-    </td>
-    <td align="center" width="33%">
-      <br/>
-      <h3>⚡ Performance</h3>
-      <p>Built with Kotlin Coroutines and MVVM architecture. Hardware-accelerated rendering for smooth 60fps+ experience.</p>
-    </td>
-  </tr>
-</table>
-
-<br/>
-
----
-
-## 📦 Core Components
-
-<details open>
-<summary><h3>🏠 Activities & UI</h3></summary>
-
-<br/>
-
-| Component | Description |
-|-----------|-------------|
-| **MainActivity.kt** | Heart of the launcher. Manages home screen, time/date display, battery monitoring, weather UI, and app drawer with blur effects. |
-| **SettingsActivity.kt** | Configuration hub for full-screen mode, layout options, opacity, blur magnitude, and gesture controls. |
-| **SearchPanelActivity.kt** | Dedicated search interface with auto-keyboard for quick app access. |
-| **DefaultHomeActivity.kt** | Helper to prompt users to set LM UI as default launcher. |
-
-</details>
-
-<details>
-<summary><h3>🧠 Architecture & Data</h3></summary>
-
-<br/>
-
-**MVVM Pattern** with Jetpack components:
-
-```
-┌─────────────────────────────────────────────────┐
-│              MainActivity                       │
-│  ┌──────────────────────────────────────────┐  │
-│  │  UI Layer (Views, RecyclerViews)         │  │
-│  └──────────────────────────────────────────┘  │
-│                      ▲                          │
-│                      │ StateFlow                │
-│                      │                          │
-│  ┌──────────────────────────────────────────┐  │
-│  │  MainViewModel                           │  │
-│  │  • App Loading (PackageManager)          │  │
-│  │  • StateFlow (apps, favorites, weather)  │  │
-│  │  • Coroutines (Dispatchers.IO)           │  │
-│  └──────────────────────────────────────────┘  │
-│                      ▲                          │
-│                      │                          │
-│  ┌──────────────────────────────────────────┐  │
-│  │  Data Layer                              │  │
-│  │  • PrefsManager (SharedPreferences)      │  │
-│  │  • WeatherManager (Retrofit + Gson)      │  │
-│  │  • AppInfo Models                        │  │
-│  └──────────────────────────────────────────┘  │
-└─────────────────────────────────────────────────┘
-```
-
-**Key Classes:**
-- **MainViewModel.kt**: Manages state, queries PackageManager, exposes StateFlows
-- **PrefsManager.kt**: Persistent storage for favorites, hidden apps, UI settings
-- **Weather.kt**: Integrates Open-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117,1A1F2E,2C3E50,1A1F2E,0D1117&height=300&section=header&text=LM%20UI%20Launcher&fontSize=80&fontColor=6D8B74&fontAlignY=35&desc=Minimalist%20Android%20Launcher%20Experience&descSize=20&descAlignY=55&animation=fadeIn" width="100%">
-
-<br/>
-
-# 🌲 LM UI Launcher 💧
-### ✨ *Where Minimalism Meets Fluid Design* ✨
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=6D8B74&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=120&lines=Serene+%F0%9F%8C%BF+Minimal+%F0%9F%8C%91+Fluid;Like+Dewdrops+on+Your+Screen+%F0%9F%92%A7;Advanced+Android+Launcher+%E2%9C%A8;Real-time+Weather+%26+Battery+Monitoring" alt="Typing SVG" />
-</p>
-
-<p align="center"><em>"A launcher as calm as morning mist, as fluid as flowing water"</em> 💧🌲</p>
-
-<br />
-
-[![GitHub Stars](https://img.shields.io/github/stars/aditandava/LM-UI?style=for-the-badge&color=2D4A2B&logo=github&logoColor=6D8B74&labelColor=0D1117)](https://github.com/aditandava/LM-UI/stargazers)
-[![Forks](https://img.shields.io/github/forks/aditandava/LM-UI?style=for-the-badge&color=3D5A40&logo=github&logoColor=6D8B74&labelColor=0D1117)](https://github.com/aditandava/LM-UI/network/members)
-[![License](https://img.shields.io/badge/License-MIT-8B9DA3?style=for-the-badge&logo=open-source-initiative&logoColor=white&labelColor=0D1117)](LICENSE)
-[![Android](https://img.shields.io/badge/Platform-Android-6D8B74?style=for-the-badge&logo=android&logoColor=white&labelColor=0D1117)](https://www.android.com)
-[![Kotlin](https://img.shields.io/badge/Language-Kotlin-5F7161?style=for-the-badge&logo=kotlin&logoColor=white&labelColor=0D1117)](https://kotlinlang.org)
-[![Issues](https://img.shields.io/github/issues/aditandava/LM-UI?style=for-the-badge&color=556B2F&logo=github&logoColor=6D8B74&labelColor=0D1117)](https://github.com/aditandava/LM-UI/issues)
-[![Sponsor](https://img.shields.io/badge/Sponsor-💖_Support-ff69b4?style=for-the-badge&logo=github-sponsors&logoColor=white&labelColor=0D1117)](https://github.com/sponsors/aditandava)
-
-<br/>
-
-```ascii
-╔════════════════════════════════════════════════════════════════╗
-║  🌿  Minimalist Design  •  ⚡ Fluid Animations  •  💧 Serene  ║
-╚════════════════════════════════════════════════════════════════╝
-```
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=androidstudio,kotlin,gradle&theme=dark" alt="Tech Stack" />
-</p>
-
-**LM UI Launcher** is a sophisticated, modern Android launcher application that replaces your default home screen with a **minimalist**, **nature-inspired** interface. Like dewdrops glistening on evergreen branches, LM UI brings tranquility and elegance to your Android experience.
-
-<p align="center">
-  <a href="#-features">🎯 Features</a> •
-  <a href="#-quick-start">🚀 Quick Start</a> •
-  <a href="#-architecture">🏗️ Architecture</a> •
-  <a href="#-screenshots">📱 Screenshots</a> •
-  <a href="https://github.com/aditandava">👤 @aditandava</a> •
-  <a href="https://github.com/sponsors/aditandava">💖 Sponsor</a>
-</p>
-
-<br/>
-
----
-
 </div>
-
-## 🌿 Philosophy
-
-> *"A launcher should be like nature - effortless, balanced, and deeply calming. Every interaction should feel like a gentle breeze through pine trees."*
-
-LM UI Launcher embraces **minimalism** and **fluid design**, removing clutter and distraction from your home screen. Inspired by the serenity of misty forests and moonlit nights, every animation, gesture, and transition is crafted to provide a **calm**, **responsive** experience.
-
-<br/>
-
----
-
-## ✨ Features
-
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <br/>
-      <h3>🌑 Minimal Design</h3>
-      <p>Clean, dist
