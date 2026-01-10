@@ -26,7 +26,7 @@
 <p align="center">
   <a href="#-introduction">📖 Introduction</a> •
   <a href="#-gallery">📸 Gallery</a> •
-  <a href="#-call-for-contributors">🤝 Contributors</a> •
+  <a href="#-contributing">🤝 Contributors</a> •
   <a href="#-installation">📥 Installation</a> •
   <a href="#-tech-stack">🛠️ Tech Stack</a>
 </p>
@@ -474,7 +474,7 @@ This project wouldn't exist without:
 
 <br/>
 
-If LM UI brings calm to your digital life, consider:
+If LM UI brings calm to your digital life, here's how you can help:
 
 <br/>
 
@@ -493,6 +493,47 @@ If LM UI brings calm to your digital life, consider:
 <a href="https://github.com/aditandava/LM-UI/issues/new?labels=enhancement&template=feature_request.md">
   <img src="https://img.shields.io/badge/💡_Request_Feature-Share_Your_Ideas-44ff44?style=for-the-badge&logo=lightbulb&logoColor=white&labelColor=0D1117" alt="Request Feature" height="50"/>
 </a>
+
+<br/><br/>
+
+---
+
+<br/>
+
+### ☕ Support Development
+
+LM UI is **free and always will be**. But if it saves you time or brings tranquility to your digital life, consider supporting its continued development:
+
+<br/>
+
+<a href="https://github.com/sponsors/aditandava">
+  <img src="https://img.shields.io/badge/💖_GitHub_Sponsors-Support_Monthly-ea4aaa?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="GitHub Sponsors" height="50"/>
+</a>
+
+&nbsp;&nbsp;
+
+<a href='https://ko-fi.com/aditandava' target='_blank'>
+  <img height='50' style='border:0px;height:50px;' src='https://storage.ko-fi.com/cdn/kofi3.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+</a>
+
+&nbsp;&nbsp;
+
+<a href="https://liberapay.com/aditandava/donate">
+  <img src="https://img.shields.io/badge/📦_Liberapay-One_Time_Donation-F6C915?style=for-the-badge&logo=liberapay&logoColor=white&labelColor=0D1117" alt="Donate on Liberapay" height="50"/>
+</a>
+
+<br/><br/>
+
+**Every contribution helps maintain:**
+- 🔒 Zero tracking, forever free
+- 🌐 Open-source development
+- 🐛 Bug fixes and new features
+- 📚 Documentation improvements
+- 🌱 Community support
+
+<br/>
+
+*Your support keeps LM UI tracker-free, ad-free, and community-driven* 💚
 
 <br/><br/>
 
